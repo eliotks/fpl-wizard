@@ -75,24 +75,25 @@
   <path d="M 460 170 A 25,20 0 0,0 540,170" style="fill:none;stroke:#EFEFEF;stroke-width:3" />
   <ellipse cx="500" cy="146" rx="3" ry="2" stroke="#EFEFEF" stroke-width="3" fill="#EFEFEF" />
 
+
   <!-- Keeper -->
-  <rect x="452" y="40" width="96" height="96" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="452" y="40" width="96" height="96" style="stroke:black;stroke-width:0;fill:none" />
 
   <!-- Forsvarere -->
-  <rect x="152" y="194" width="114" height="114" style="stroke:black;stroke-width:5;fill:none" />
-  <rect x="346" y="194" width="114" height="114" style="stroke:black;stroke-width:5;fill:none" />
-  <rect x="540" y="194" width="114" height="114" style="stroke:black;stroke-width:5;fill:none" />
-  <rect x="734" y="194" width="114" height="114" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="152" y="194" width="114" height="114" style="stroke:black;stroke-width:0;fill:none" />
+  <rect x="346" y="194" width="114" height="114" style="stroke:black;stroke-width:0;fill:none" />
+  <rect x="540" y="194" width="114" height="114" style="stroke:black;stroke-width:0;fill:none" />
+  <rect x="734" y="194" width="114" height="114" style="stroke:black;stroke-width:0;fill:none" />
 
   <!-- Midtbanespillere -->
-  <rect x="79" y="340" width="128" height="128" style="stroke:black;stroke-width:5;fill:none" />
-  <rect x="317" y="340" width="128" height="128" style="stroke:black;stroke-width:5;fill:none" />
-  <rect x="555" y="340" width="128" height="128" style="stroke:black;stroke-width:5;fill:none" />
-  <rect x="793" y="340" width="128" height="128" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="79" y="340" width="128" height="128" style="stroke:black;stroke-width:0;fill:none" />
+  <rect x="317" y="340" width="128" height="128" style="stroke:black;stroke-width:0;fill:none" />
+  <rect x="555" y="340" width="128" height="128" style="stroke:black;stroke-width:0;fill:none" />
+  <rect x="793" y="340" width="128" height="128" style="stroke:black;stroke-width:0;fill:none" />
 
   <!-- Angripere -->
-  <rect x="214" y="490" width="142" height="142" style="stroke:black;stroke-width:5;fill:none" />
-  <rect x="644" y="490" width="142" height="142" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="214" y="490" width="142" height="142" style="stroke:black;stroke-width:0;fill:none" />
+  <rect x="644" y="490" width="142" height="142" style="stroke:black;stroke-width:0;fill:none" />
 
 
   <!-- <defs>
