@@ -1,0 +1,113 @@
+<svg width="1000" height="650">
+
+  <rect width="1000" height="650" style="fill:red" />
+
+  <!-- Gress -->
+  <rect x="0" y="560" width="1000" height="90" style="stroke:none;fill:#27EE14" />
+  <rect x="0" y="468" width="1000" height="92" style="stroke:none;fill:#1CC50B" />
+  <rect x="0" y="385" width="1000" height="83" style="stroke:none;fill:#27EE14" />
+  <rect x="0" y="310" width="1000" height="75" style="stroke:none;fill:#1CC50B" />
+  <rect x="0" y="243" width="1000" height="67" style="stroke:none;fill:#27EE14" />
+  <rect x="0" y="184" width="1000" height="59" style="stroke:none;fill:#1CC50B" />
+  <rect x="0" y="133" width="1000" height="51" style="stroke:none;fill:#27EE14" />
+  <rect x="0" y="90" width="1000" height="43" style="stroke:none;fill:#1CC50B" />
+  <rect x="0" y="60" width="1000" height="30" style="stroke:none;fill:#27EE14" />
+
+  <!-- Bakgrunn -->
+  <polyline points="0,0 0,360 172,60 828,60 1000,360 1000,0 0,0" style="fill:#2F084C;stroke:none" />
+
+  <!-- Reklameskilt (med link) -->
+  <polygon points="206,60 394,60 376,84 216,84" style="fill:#1A9F0D;stroke:none" />
+  <rect x="216" y="34" width="160" height="50" style="stroke:none;fill:#EBEBEB" />
+  <a xlink:href="https://fantasy.premierleague.com/entry/415344/event/1" target="_blank">
+    <text x="221" y="67" fill="#2F084C" font-size="21" font-weight="bold">SKRELL SQUAD</text>
+  </a>
+
+  <polygon points="606,60 794,60 784,84 624,84" style="fill:#1A9F0D;stroke:none" />
+  <rect x="624" y="34" width="160" height="50" style="stroke:none;fill:#EBEBEB" />
+  <a xlink:href="https://fantasy.premierleague.com/entry/1319198/event/1" target="_blank">
+    <text x="636" y="67" fill="#2F084C" font-size="21" font-weight="bold">LARSENAL FC</text>
+  </a>
+
+  <!-- Skyggen til målet -->
+  <polygon points="410,60 590,60 580,90 420,90" style="fill:#1A9F0D;stroke:none" />
+
+  <!-- Nettet til målet -->
+  <line x1="420" y1="32" x2="580" y2="32" style="stroke:white;stroke-width:2" />
+  <line x1="420" y1="42" x2="580" y2="42" style="stroke:white;stroke-width:2" />
+  <line x1="420" y1="52" x2="580" y2="52" style="stroke:white;stroke-width:2" />
+  <line x1="420" y1="62" x2="580" y2="62" style="stroke:white;stroke-width:2" />
+  <line x1="420" y1="72" x2="580" y2="72" style="stroke:white;stroke-width:2" />
+  <line x1="420" y1="82" x2="580" y2="82" style="stroke:white;stroke-width:2" />
+
+  <line x1="430" y1="20" x2="430" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="440" y1="20" x2="440" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="450" y1="20" x2="450" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="460" y1="20" x2="460" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="470" y1="20" x2="470" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="480" y1="20" x2="480" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="490" y1="20" x2="490" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="500" y1="20" x2="500" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="510" y1="20" x2="510" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="520" y1="20" x2="520" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="530" y1="20" x2="530" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="540" y1="20" x2="540" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="550" y1="20" x2="550" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="560" y1="20" x2="560" y2="90" style="stroke:white;stroke-width:2" />
+  <line x1="570" y1="20" x2="570" y2="90" style="stroke:white;stroke-width:2" />
+
+  <!-- Banemerking -->
+  <polyline points="-10,450 180,90 820,90 1010,450" style="fill:none;stroke:#EFEFEF;stroke-width:3" />
+  <path d="M 215 90 S 210 115, 170 110" style="fill:none;stroke:#EFEFEF;stroke-width:3" />
+  <path d="M 785 90 S 790 115, 830 110, 830 110" style="fill:none;stroke:#EFEFEF;stroke-width:3" />
+
+  <!-- Midtsirkelen -->
+  <line x1="0" y1="560" x2="1000" y2="560" style="stroke:#EFEFEF;stroke-width:3" />
+  <ellipse cx="500" cy="560" rx="12.8" ry="8" stroke="#EFEFEF" stroke-width="3" fill="#EFEFEF" />
+  <ellipse cx="500" cy="560" rx="128" ry="80" stroke="#EFEFEF" stroke-width="3" fill="none" />
+
+  <!-- Selve målet -->
+  <polyline points="420,90 420,20 580,20 580,90" style="fill:none;stroke:#D4D4D4;stroke-width:8" />
+
+  <!-- Boksen -->
+  <polyline points="400,90 395,125 605,125 600,90" style="fill:none;stroke:#EFEFEF;stroke-width:3" />
+  <polyline points="360,90 340,170 660,170 640,90" style="fill:none;stroke:#EFEFEF;stroke-width:3" />
+  <path d="M 460 170 A 25,20 0 0,0 540,170" style="fill:none;stroke:#EFEFEF;stroke-width:3" />
+  <ellipse cx="500" cy="146" rx="3" ry="2" stroke="#EFEFEF" stroke-width="3" fill="#EFEFEF" />
+
+  <!-- Keeper -->
+  <rect x="452" y="40" width="96" height="96" style="stroke:black;stroke-width:5;fill:none" />
+
+  <!-- Forsvarere -->
+  <rect x="152" y="194" width="114" height="114" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="346" y="194" width="114" height="114" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="540" y="194" width="114" height="114" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="734" y="194" width="114" height="114" style="stroke:black;stroke-width:5;fill:none" />
+
+  <!-- Midtbanespillere -->
+  <rect x="79" y="340" width="128" height="128" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="317" y="340" width="128" height="128" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="555" y="340" width="128" height="128" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="793" y="340" width="128" height="128" style="stroke:black;stroke-width:5;fill:none" />
+
+  <!-- Angripere -->
+  <rect x="214" y="490" width="142" height="142" style="stroke:black;stroke-width:5;fill:none" />
+  <rect x="644" y="490" width="142" height="142" style="stroke:black;stroke-width:5;fill:none" />
+
+
+  <!-- <defs>
+    <pattern id="light_grass_1" x="0" y="0" width="10" height="4" patternUnits="userSpaceOnUse" >
+        <circle cx="5" cy="5" r="4" style="stroke:none;fill:black"/>
+    </pattern>
+    <pattern id="light_grass_2" x="5" y="5" width="10" height="10" patternUnits="userSpaceOnUse" >
+        <circle cx="5" cy="5" r="4" style="stroke:none;fill:black"/>
+    </pattern>
+    <pattern id="light_grass_2" x="5" y="5" width="10" height="10" patternUnits="userSpaceOnUse" >
+        <circle cx="5" cy="5" r="4" style="stroke:none;fill:black"/>
+    </pattern>
+  </defs>
+ 
+  <rect x="0" y="300" width="1000" height="50" style="stroke:none;fill:green;"/>
+  <rect x="0" y="300" width="1000" height="50" style="stroke:none;fill:url(#light_grass_1);"/> -->
+
+</svg>

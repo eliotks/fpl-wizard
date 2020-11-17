@@ -8,7 +8,6 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-
 const styles = {
   root: {
     padding: 16,

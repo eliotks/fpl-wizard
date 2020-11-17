@@ -4,6 +4,7 @@ import { WithStyles } from "@material-ui/styles"
 import Container from '@material-ui/core/Container';
 import GameWeekList from './components/GameWeekList'
 import Typography from '@material-ui/core/Typography';
+import { ReactComponent as Field} from './field.svg';
 
 const styles = {
   root: {
@@ -18,8 +19,14 @@ const styles = {
   },
   gameweekList: {
     padding: "40px 100px 0px 100px",
+  },
+  field: {
+    width: '100%',
+    padding: 50,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
   }
-
 };
 
 
@@ -29,6 +36,9 @@ const App: React.FunctionComponent<IProps> = props => {
   const { classes } = props;
   return (
     <div className={classes.root}>
+      <Container className={classes.field}>
+        <Field />
+      </Container>
       <Container>
         <Typography align="center" className={classes.header}>Fantasy Premier League Ponts Prediction</Typography>
       </Container>
