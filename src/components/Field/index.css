@@ -1,0 +1,41 @@
+.root {
+    position: relative;
+} 
+
+.field {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.team {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #032254;
+    width: 100%;
+}
+
+
+.rootGrid {
+    padding: 50px;
+}
+
+.defGrid {
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.midGrid {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.attGrid {
+    padding-top: 20px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
