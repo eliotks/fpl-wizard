@@ -15,43 +15,43 @@ function Field() {
             <Grid container direction="column" className="rootGrid">
                 <Grid item container direction="row" justify="center">
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 90 }}/>
+                        <PersonIcon style={{ fontSize: 100 }}/>
                     </Grid>
                 </Grid>
                 <Grid item container direction="row" justify="space-between" className="defGrid">
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 100 }}/>
+                        <PersonIcon style={{ fontSize: 115 }}/>
                     </Grid>
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 100 }}/>
+                        <PersonIcon style={{ fontSize: 115 }}/>
                     </Grid>
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 100 }}/>
+                        <PersonIcon style={{ fontSize: 115 }}/>
                     </Grid>
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 100 }}/>
+                        <PersonIcon style={{ fontSize: 115 }}/>
                     </Grid>
                 </Grid>
                 <Grid item container direction="row" justify="space-between" className="midGrid">
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 120 }}/>
+                        <PersonIcon style={{ fontSize: 130 }}/>
                     </Grid>
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 120 }}/>
+                        <PersonIcon style={{ fontSize: 130 }}/>
                     </Grid>
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 120 }}/>
+                        <PersonIcon style={{ fontSize: 130 }}/>
                     </Grid>
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 120 }}/>
+                        <PersonIcon style={{ fontSize: 130 }}/>
                     </Grid>
                 </Grid>
                 <Grid item container direction="row" justify="space-between" className="attGrid">
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 140 }}/>
+                        <PersonIcon style={{ fontSize: 150 }}/>
                     </Grid>
                     <Grid item >
-                        <PersonIcon style={{ fontSize: 140 }}/>
+                        <PersonIcon style={{ fontSize: 150 }}/>
                     </Grid>
                 </Grid>
             </Grid>
