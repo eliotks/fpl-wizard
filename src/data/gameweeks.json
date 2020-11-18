@@ -5,14 +5,14 @@
         "keeper": {
             "name": "Jan",
             "team": "Banan",
-            "color": "yellow",
+            "color": "red",
             "prediction": 3.34,
             "score": 6
         },
         "defender1": {
             "name": "Jan Igjen",
             "team": "Pære",
-            "color": "green",
+            "color": "navy",
             "prediction": 4.39,
             "score": 11
         },
@@ -26,14 +26,14 @@
         "defender3": {
             "name": "Også Jan",
             "team": "Kiwi og mer kiwi",
-            "color": "green",
+            "color": "navy",
             "prediction": 3.80,
             "score": 1
         },
         "defender4": {
             "name": "Mer Jan",
             "team": "Surt eple",
-            "color": "green",
+            "color": "blue",
             "prediction": 3.46,
             "score": 7
         },
@@ -87,14 +87,14 @@
         "keeper": {
             "name": "Jan",
             "team": "Banan",
-            "color": "yellow",
+            "color": "red",
             "prediction": 3.34,
             "score": 6
         },
         "defender1": {
             "name": "Jan Igjen",
             "team": "Pære",
-            "color": "green",
+            "color": "navy",
             "prediction": 4.39,
             "score": 11
         },
@@ -108,14 +108,14 @@
         "defender3": {
             "name": "Også Jan",
             "team": "Kiwi og mer kiwi",
-            "color": "green",
+            "color": "navy",
             "prediction": 3.80,
             "score": 1
         },
         "defender4": {
             "name": "Mer Jan",
             "team": "Surt eple",
-            "color": "green",
+            "color": "blue",
             "prediction": 3.46,
             "score": 7
         },
@@ -169,14 +169,14 @@
         "keeper": {
             "name": "Jan",
             "team": "Banan",
-            "color": "yellow",
+            "color": "red",
             "prediction": 3.34,
             "score": 6
         },
         "defender1": {
             "name": "Jan Igjen",
             "team": "Pære",
-            "color": "green",
+            "color": "navy",
             "prediction": 4.39,
             "score": 11
         },
@@ -190,14 +190,14 @@
         "defender3": {
             "name": "Også Jan",
             "team": "Kiwi og mer kiwi",
-            "color": "green",
+            "color": "navy",
             "prediction": 3.80,
             "score": 1
         },
         "defender4": {
             "name": "Mer Jan",
             "team": "Surt eple",
-            "color": "green",
+            "color": "blue",
             "prediction": 3.46,
             "score": 7
         },
@@ -251,14 +251,14 @@
         "keeper": {
             "name": "Jan",
             "team": "Banan",
-            "color": "yellow",
+            "color": "red",
             "prediction": 3.34,
             "score": 6
         },
         "defender1": {
             "name": "Jan Igjen",
             "team": "Pære",
-            "color": "green",
+            "color": "navy",
             "prediction": 4.39,
             "score": 11
         },
@@ -272,14 +272,14 @@
         "defender3": {
             "name": "Også Jan",
             "team": "Kiwi og mer kiwi",
-            "color": "green",
+            "color": "navy",
             "prediction": 3.80,
             "score": 1
         },
         "defender4": {
             "name": "Mer Jan",
             "team": "Surt eple",
-            "color": "green",
+            "color": "blue",
             "prediction": 3.46,
             "score": 7
         },
@@ -333,14 +333,14 @@
         "keeper": {
             "name": "Jan",
             "team": "Banan",
-            "color": "yellow",
+            "color": "red",
             "prediction": 3.34,
             "score": 6
         },
         "defender1": {
             "name": "Jan Igjen",
             "team": "Pære",
-            "color": "green",
+            "color": "navy",
             "prediction": 4.39,
             "score": 11
         },
@@ -354,14 +354,14 @@
         "defender3": {
             "name": "Også Jan",
             "team": "Kiwi og mer kiwi",
-            "color": "green",
+            "color": "navy",
             "prediction": 3.80,
             "score": 1
         },
         "defender4": {
             "name": "Mer Jan",
             "team": "Surt eple",
-            "color": "green",
+            "color": "blue",
             "prediction": 3.46,
             "score": 7
         },
@@ -415,14 +415,14 @@
         "keeper": {
             "name": "Jan",
             "team": "Banan",
-            "color": "yellow",
+            "color": "red",
             "prediction": 3.34,
             "score": 6
         },
         "defender1": {
             "name": "Jan Igjen",
             "team": "Pære",
-            "color": "green",
+            "color": "navy",
             "prediction": 4.39,
             "score": 11
         },
@@ -436,14 +436,14 @@
         "defender3": {
             "name": "Også Jan",
             "team": "Kiwi og mer kiwi",
-            "color": "green",
+            "color": "navy",
             "prediction": 3.80,
             "score": 1
         },
         "defender4": {
             "name": "Mer Jan",
             "team": "Surt eple",
-            "color": "green",
+            "color": "blue",
             "prediction": 3.46,
             "score": 7
         },
