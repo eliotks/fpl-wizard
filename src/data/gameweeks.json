@@ -1,89 +1,493 @@
 {
-    "4": "4",
-    "5": "4",
-    "6": "4",
-    "7": "4",
-    "8": "4",
-    "9": {
+    "4": {
         "totalPrediction": 52,
-    
         "totalPoints": 70,
-    
         "keeper": {
             "name": "Jan",
             "team": "Banan",
+            "color": "yellow",
             "prediction": 3.34,
             "score": 6
         },
-    
         "defender1": {
             "name": "Jan Igjen",
             "team": "Pære",
+            "color": "green",
             "prediction": 4.39,
             "score": 11
         },
-    
         "defender2": {
             "name": "Jan En Gang Til",
             "team": "Kjempemango",
+            "color": "red",
             "prediction": 3.95,
             "score": 2
         },
-    
         "defender3": {
             "name": "Også Jan",
             "team": "Kiwi og mer kiwi",
+            "color": "green",
             "prediction": 3.80,
             "score": 1
         },
-    
         "defender4": {
             "name": "Mer Jan",
             "team": "Surt eple",
+            "color": "green",
             "prediction": 3.46,
             "score": 7
         },
-        
         "midfielder1": {
             "name": "Fortsatt Jan",
             "team": "Troika FC",
+            "color": "purple",
             "prediction": 5.16,
             "score": 6
         },
-    
         "midfielder2": {
             "name": "Jan her og",
             "team": "Bounty Hunter",
+            "color": "white",
             "prediction": 5.07,
             "score": 3
         },
-    
         "midfielder3": {
             "name": "Virgil van Jan",
             "team": "Snickers og Twist",
+            "color": "brown",
             "prediction": 4.49,
             "score": 14
         },
-    
         "midfielder4": {
             "name": "Jan Uzai",
             "team": "Quick Hunch",
+            "color": "orange",
             "prediction": 4.12,
             "score": 8
         },
-    
         "attacker1": {
+            "name": "Jan Nik",
+            "team": "Red Bull Strikers",
+            "color": "blue",
+            "prediction": 5.88,
+            "score": 5
+        },
+        "attacker2": {
+            "name": "Bavi Jan",
+            "team": "Red Tull",
+            "color": "red",
+            "prediction": 5.71,
+            "score": 16
+        }
+    },
+
+    "5": {
+        "totalPrediction": 52,
+        "totalPoints": 70,
+        "keeper": {
+            "name": "Jan",
+            "team": "Banan",
+            "color": "yellow",
+            "prediction": 3.34,
+            "score": 6
+        },
+        "defender1": {
+            "name": "Jan Igjen",
+            "team": "Pære",
+            "color": "green",
+            "prediction": 4.39,
+            "score": 11
+        },
+        "defender2": {
+            "name": "Jan En Gang Til",
+            "team": "Kjempemango",
+            "color": "red",
+            "prediction": 3.95,
+            "score": 2
+        },
+        "defender3": {
+            "name": "Også Jan",
+            "team": "Kiwi og mer kiwi",
+            "color": "green",
+            "prediction": 3.80,
+            "score": 1
+        },
+        "defender4": {
+            "name": "Mer Jan",
+            "team": "Surt eple",
+            "color": "green",
+            "prediction": 3.46,
+            "score": 7
+        },
+        "midfielder1": {
+            "name": "Fortsatt Jan",
+            "team": "Troika FC",
+            "color": "purple",
+            "prediction": 5.16,
+            "score": 6
+        },
+        "midfielder2": {
+            "name": "Jan her og",
+            "team": "Bounty Hunter",
+            "color": "white",
+            "prediction": 5.07,
+            "score": 3
+        },
+        "midfielder3": {
+            "name": "Virgil van Jan",
+            "team": "Snickers og Twist",
+            "color": "brown",
+            "prediction": 4.49,
+            "score": 14
+        },
+        "midfielder4": {
             "name": "Jan Uzai",
             "team": "Quick Hunch",
+            "color": "orange",
             "prediction": 4.12,
             "score": 8
         },
-    
+        "attacker1": {
+            "name": "Jan Nik",
+            "team": "Red Bull Strikers",
+            "color": "blue",
+            "prediction": 5.88,
+            "score": 5
+        },
         "attacker2": {
+            "name": "Bavi Jan",
+            "team": "Red Tull",
+            "color": "red",
+            "prediction": 5.71,
+            "score": 16
+        }
+    },
+
+    "6": {
+        "totalPrediction": 52,
+        "totalPoints": 70,
+        "keeper": {
+            "name": "Jan",
+            "team": "Banan",
+            "color": "yellow",
+            "prediction": 3.34,
+            "score": 6
+        },
+        "defender1": {
+            "name": "Jan Igjen",
+            "team": "Pære",
+            "color": "green",
+            "prediction": 4.39,
+            "score": 11
+        },
+        "defender2": {
+            "name": "Jan En Gang Til",
+            "team": "Kjempemango",
+            "color": "red",
+            "prediction": 3.95,
+            "score": 2
+        },
+        "defender3": {
+            "name": "Også Jan",
+            "team": "Kiwi og mer kiwi",
+            "color": "green",
+            "prediction": 3.80,
+            "score": 1
+        },
+        "defender4": {
+            "name": "Mer Jan",
+            "team": "Surt eple",
+            "color": "green",
+            "prediction": 3.46,
+            "score": 7
+        },
+        "midfielder1": {
+            "name": "Fortsatt Jan",
+            "team": "Troika FC",
+            "color": "purple",
+            "prediction": 5.16,
+            "score": 6
+        },
+        "midfielder2": {
+            "name": "Jan her og",
+            "team": "Bounty Hunter",
+            "color": "white",
+            "prediction": 5.07,
+            "score": 3
+        },
+        "midfielder3": {
+            "name": "Virgil van Jan",
+            "team": "Snickers og Twist",
+            "color": "brown",
+            "prediction": 4.49,
+            "score": 14
+        },
+        "midfielder4": {
             "name": "Jan Uzai",
             "team": "Quick Hunch",
+            "color": "orange",
             "prediction": 4.12,
             "score": 8
+        },
+        "attacker1": {
+            "name": "Jan Nik",
+            "team": "Red Bull Strikers",
+            "color": "blue",
+            "prediction": 5.88,
+            "score": 5
+        },
+        "attacker2": {
+            "name": "Bavi Jan",
+            "team": "Red Tull",
+            "color": "red",
+            "prediction": 5.71,
+            "score": 16
+        }
+    },
+
+    "7": {
+        "totalPrediction": 52,
+        "totalPoints": 70,
+        "keeper": {
+            "name": "Jan",
+            "team": "Banan",
+            "color": "yellow",
+            "prediction": 3.34,
+            "score": 6
+        },
+        "defender1": {
+            "name": "Jan Igjen",
+            "team": "Pære",
+            "color": "green",
+            "prediction": 4.39,
+            "score": 11
+        },
+        "defender2": {
+            "name": "Jan En Gang Til",
+            "team": "Kjempemango",
+            "color": "red",
+            "prediction": 3.95,
+            "score": 2
+        },
+        "defender3": {
+            "name": "Også Jan",
+            "team": "Kiwi og mer kiwi",
+            "color": "green",
+            "prediction": 3.80,
+            "score": 1
+        },
+        "defender4": {
+            "name": "Mer Jan",
+            "team": "Surt eple",
+            "color": "green",
+            "prediction": 3.46,
+            "score": 7
+        },
+        "midfielder1": {
+            "name": "Fortsatt Jan",
+            "team": "Troika FC",
+            "color": "purple",
+            "prediction": 5.16,
+            "score": 6
+        },
+        "midfielder2": {
+            "name": "Jan her og",
+            "team": "Bounty Hunter",
+            "color": "white",
+            "prediction": 5.07,
+            "score": 3
+        },
+        "midfielder3": {
+            "name": "Virgil van Jan",
+            "team": "Snickers og Twist",
+            "color": "brown",
+            "prediction": 4.49,
+            "score": 14
+        },
+        "midfielder4": {
+            "name": "Jan Uzai",
+            "team": "Quick Hunch",
+            "color": "orange",
+            "prediction": 4.12,
+            "score": 8
+        },
+        "attacker1": {
+            "name": "Jan Nik",
+            "team": "Red Bull Strikers",
+            "color": "blue",
+            "prediction": 5.88,
+            "score": 5
+        },
+        "attacker2": {
+            "name": "Bavi Jan",
+            "team": "Red Tull",
+            "color": "red",
+            "prediction": 5.71,
+            "score": 16
+        }
+    },
+
+    "8": {
+        "totalPrediction": 52,
+        "totalPoints": 70,
+        "keeper": {
+            "name": "Jan",
+            "team": "Banan",
+            "color": "yellow",
+            "prediction": 3.34,
+            "score": 6
+        },
+        "defender1": {
+            "name": "Jan Igjen",
+            "team": "Pære",
+            "color": "green",
+            "prediction": 4.39,
+            "score": 11
+        },
+        "defender2": {
+            "name": "Jan En Gang Til",
+            "team": "Kjempemango",
+            "color": "red",
+            "prediction": 3.95,
+            "score": 2
+        },
+        "defender3": {
+            "name": "Også Jan",
+            "team": "Kiwi og mer kiwi",
+            "color": "green",
+            "prediction": 3.80,
+            "score": 1
+        },
+        "defender4": {
+            "name": "Mer Jan",
+            "team": "Surt eple",
+            "color": "green",
+            "prediction": 3.46,
+            "score": 7
+        },
+        "midfielder1": {
+            "name": "Fortsatt Jan",
+            "team": "Troika FC",
+            "color": "purple",
+            "prediction": 5.16,
+            "score": 6
+        },
+        "midfielder2": {
+            "name": "Jan her og",
+            "team": "Bounty Hunter",
+            "color": "white",
+            "prediction": 5.07,
+            "score": 3
+        },
+        "midfielder3": {
+            "name": "Virgil van Jan",
+            "team": "Snickers og Twist",
+            "color": "brown",
+            "prediction": 4.49,
+            "score": 14
+        },
+        "midfielder4": {
+            "name": "Jan Uzai",
+            "team": "Quick Hunch",
+            "color": "orange",
+            "prediction": 4.12,
+            "score": 8
+        },
+        "attacker1": {
+            "name": "Jan Nik",
+            "team": "Red Bull Strikers",
+            "color": "blue",
+            "prediction": 5.88,
+            "score": 5
+        },
+        "attacker2": {
+            "name": "Bavi Jan",
+            "team": "Red Tull",
+            "color": "red",
+            "prediction": 5.71,
+            "score": 16
+        }
+    },
+
+    "9": {
+        "totalPrediction": 52,
+        "totalPoints": 70,
+        "keeper": {
+            "name": "Jan",
+            "team": "Banan",
+            "color": "yellow",
+            "prediction": 3.34,
+            "score": 6
+        },
+        "defender1": {
+            "name": "Jan Igjen",
+            "team": "Pære",
+            "color": "green",
+            "prediction": 4.39,
+            "score": 11
+        },
+        "defender2": {
+            "name": "Jan En Gang Til",
+            "team": "Kjempemango",
+            "color": "red",
+            "prediction": 3.95,
+            "score": 2
+        },
+        "defender3": {
+            "name": "Også Jan",
+            "team": "Kiwi og mer kiwi",
+            "color": "green",
+            "prediction": 3.80,
+            "score": 1
+        },
+        "defender4": {
+            "name": "Mer Jan",
+            "team": "Surt eple",
+            "color": "green",
+            "prediction": 3.46,
+            "score": 7
+        },
+        "midfielder1": {
+            "name": "Fortsatt Jan",
+            "team": "Troika FC",
+            "color": "purple",
+            "prediction": 5.16,
+            "score": 6
+        },
+        "midfielder2": {
+            "name": "Jan her og",
+            "team": "Bounty Hunter",
+            "color": "white",
+            "prediction": 5.07,
+            "score": 3
+        },
+        "midfielder3": {
+            "name": "Virgil van Jan",
+            "team": "Snickers og Twist",
+            "color": "brown",
+            "prediction": 4.49,
+            "score": 14
+        },
+        "midfielder4": {
+            "name": "Jan Uzai",
+            "team": "Quick Hunch",
+            "color": "orange",
+            "prediction": 4.12,
+            "score": 8
+        },
+        "attacker1": {
+            "name": "Jan Nik",
+            "team": "Red Bull Strikers",
+            "color": "blue",
+            "prediction": 5.88,
+            "score": 5
+        },
+        "attacker2": {
+            "name": "Bavi Jan",
+            "team": "Red Tull",
+            "color": "red",
+            "prediction": 5.71,
+            "score": 16
         }
     }
 }    
