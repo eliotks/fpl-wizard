@@ -18,12 +18,12 @@ type IProps = WithStyles<typeof styles>
 const GameWeekList: React.FunctionComponent<IProps> = props =>  {
     const { classes } = props;
 
-    const gameweeks: string[] = ["9", "8", "7", "6", "5", "4"]
+    const gameweeks: number[] = [9, 8, 7, 6, 5, 4]
 
     return (
         <div className={classes.root}>
             {gameweeks.map((item, index) => {
-                return <GameWeek gameweek={item}/>
+                return <GameWeek gameweekNumber={item}/>
             })}
         </div>
     )
