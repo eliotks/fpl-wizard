@@ -34,7 +34,7 @@ const styles = {
 };
 
 interface IGameWeek {
-    gameweek: string
+    gameweekNumber: number
 }
 
 
@@ -43,14 +43,14 @@ type IProps = WithStyles<typeof styles> & IGameWeek
 const GameWeek: React.FunctionComponent<IProps> = props =>  {
     const [expanded, setExpanded] = React.useState<boolean>(false);
     
-    const { classes, gameweek } = props;
+    const { classes, gameweekNumber } = props;
     return (
         <Accordion  className={classes.root} expanded={expanded} onChange={() => setExpanded(! expanded)}>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography className={classes.header}>{"GameWeek  " + gameweek}</Typography>
+                <Typography className={classes.header}>{"GameWeek  " + gameweekNumber.toString()}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-                <Container className={classes.field}> <Field/> </Container>
+                <Container className={classes.field}> <Field gameweekNumber={gameweekNumber}/> </Container>
             </AccordionDetails>
         </Accordion>
     )
