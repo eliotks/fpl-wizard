@@ -6,6 +6,7 @@ import { ReactComponent as FieldBackground } from '../../field.svg';
 import gameweeks from '../../data/gameweeks.json';
 import { IPlayer } from '../../data/interfaces';
 import './index.css';
+import PlayerText from '../PlayerText';
 
 
 interface IProps {
@@ -50,8 +51,7 @@ function Field(props: IProps) {
                     <Grid item container direction="row" justify="center" className="keepGrid">
                         <Grid item >
                             <PersonIcon style={{ fontSize: 100, color: keeper["color"] }}/>
-                            <Typography align="center" style={{ fontSize: 14, fontWeight: "bold" }}>{keeper["name"]}</Typography>
-                            <Typography align="center" style={{ fontSize: 14, fontWeight: "bold" }}>p: {keeper["prediction"]} , s: {keeper["score"]}</Typography>
+                            <PlayerText />
                         </Grid>
                     </Grid>
                     <Grid item container direction="row" justify="space-between" className="defGrid">
