@@ -10,7 +10,6 @@ import FieldBackground from '../FieldBackground';
 import MidfielderShirt from '../PlayerShirts/MidfielderShirt';
 import DefenderShirt from '../PlayerShirts/DefenderShirt';
 import { IProps as IShirtProps } from '../PlayerShirts/interfaces';
-import { ShoppingBasket } from '@material-ui/icons';
 
 
 interface IProps {
