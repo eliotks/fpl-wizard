@@ -8,6 +8,7 @@ import AttackerShirt from '../PlayerShirts/AttackerShirt';
 import FieldBackground from '../FieldBackground';
 import MidfielderShirt from '../PlayerShirts/MidfielderShirt';
 import DefenderShirt from '../PlayerShirts/DefenderShirt';
+import KeeperShirt from '../PlayerShirts/KeeperShirt';
 
 
 interface IProps {
@@ -62,61 +63,45 @@ function Field(props: IProps) {
                     <Grid container direction="column" className="rootGrid">
                         <Grid item container direction="row" justify="center" className="keepGrid">
                             <Grid item >
-                                <svg width="80" height="80">
-                                    <rect x="0" y="0" width="80" height="80" stroke="black" stroke-width="5" fill="none" />
-                                </svg>
+                                <KeeperShirt />
                                 <PlayerText />
                             </Grid>
                         </Grid>
                         <Grid item container direction="row" justify="space-between" className="defGrid">
                             <Grid item >
-                                <svg width="90" height="90">
-                                    <rect x="0" y="0" width="90" height="90" stroke="black" stroke-width="5" fill="none" />
-                                </svg>
+                                <DefenderShirt />
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <svg width="90" height="90">
-                                    <rect x="0" y="0" width="90" height="90" stroke="black" stroke-width="5" fill="none" />
-                                </svg>
+                                <DefenderShirt />
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <svg width="90" height="90">
-                                    <rect x="0" y="0" width="90" height="90" stroke="black" stroke-width="5" fill="none" />
-                                </svg>
+                                <DefenderShirt />
                                 <PlayerText />
                             </Grid>
                         </Grid>
                         <Grid item container direction="row" justify="space-between" className="midGrid">
                             <Grid item >
-                                <svg width="100" height="100">
-                                    <rect x="0" y="0" width="100" height="100" stroke="black" stroke-width="5" fill="none" />
-                                </svg>
+                                <MidfielderShirt />
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <svg width="100" height="100">
-                                    <rect x="0" y="0" width="100" height="100" stroke="black" stroke-width="5" fill="none" />
-                                </svg>
+                                <MidfielderShirt />
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <svg width="100" height="100">
-                                    <rect x="0" y="0" width="100" height="100" stroke="black" stroke-width="5" fill="none" />
-                                </svg>
+                                <MidfielderShirt />
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <svg width="100" height="100">
-                                    <rect x="0" y="0" width="100" height="100" stroke="black" stroke-width="5" fill="none" />
-                                </svg>
+                                <MidfielderShirt />
                                 <PlayerText />
                             </Grid>
                         </Grid>
                         <Grid item container direction="row" justify="space-between" className="attGrid">
                             <Grid item >
-                                <MidfielderShirt />
+                                <AttackerShirt />
                                 <PlayerText />
                             </Grid>
                             <Grid item >
@@ -124,7 +109,7 @@ function Field(props: IProps) {
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <DefenderShirt />
+                                <AttackerShirt />
                                 <PlayerText />
                             </Grid>
                         </Grid>

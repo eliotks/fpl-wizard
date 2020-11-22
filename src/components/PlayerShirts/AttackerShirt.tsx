@@ -2,8 +2,9 @@ import React from 'react';
 
 function AttackerShirt() {
     
-    // Liverpool: const colors = ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    // const colors = ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"] // Liverpool
     const colors = ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"]; // Crystal Palace
+    // const colors = ["#801B0D", "#801B0D", "#11B5CE", "#11B5CE", "#11B5CE", "#54160E", "#54160E", "none"] // West Ham
     const color1 = colors[0]; // Hoveddel
     const color2 = colors[1]; // Stripene
     const color3 = colors[2]; // Armene
@@ -60,9 +61,7 @@ function AttackerShirt() {
                 S 95 55, 92 53 L 80 30 Z
                 " stroke="black" stroke-width="1" fill="none" />
 
-                {/* Hoveddel
-                82 10
-                */}
+                {/* Hoveddel */}
                 <path d="M 25 115 
                 S 35 50, 20 20 L 20 20 
                 S 35 20, 37.2 10.5 L 37.2 10.5 
