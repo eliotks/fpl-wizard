@@ -3,11 +3,20 @@ import { IProps } from './interfaces'
 
 function AttackerShirt(props: IProps) {
 
+    // const { colors } = props;
+
+
     // const colors = ["#801B0D", "#801B0D", "#11B5CE", "#11B5CE", "#11B5CE", "#54160E", "#54160E", "none"] // West Ham
-    // const colors = ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]; // Liverpool
     // const colors = ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"]; // Crystal Palace
-    const { colors } = props;
-  
+    //              [Hoveddel,   Striper,   Armer,    Amrkant,    Krage,   Krage bak,  Hals,   Striper]
+
+    // const colors = ["#FF1B00", "#FF1B00", "#FF1B00", "white", "#00FFC5", "white", "#BE0000", "none"] // Liverpool
+    // const colors = ["#CD0A0A", "#CD0A0A", "#CD0A0A", "#00033C", "#00033C", "01021D", "#9C0000", "none"] // United
+    // const colors = ["#02DDFF", "#02DDFF", "#02DDFF", "white", "white", "#E3E3E3", "#00BAD7", "none"] // City
+    // const colors = ["#0012F2", "#0012F2", "#0012F2", "#00065B", "#00065B", "#00065B", "#000DC5", "none"] // Chelsea
+    // const colors = ["#F5F5F5", "#F5F5F5", "#F5F5F5", "#1E466D", "#1E466D", "#1E466D", "#F0F0F0", "none"] // Tottenham
+    const colors = ["#F5F5F5", "#F5F5F5", "#F5F5F5", "#1E466D", "#1E466D", "#1E466D", "#F0F0F0", "none"]
+
     const color1 = colors[0]; // Hoveddel
     const color2 = colors[1]; // Stripene
     const color3 = colors[2]; // Armene

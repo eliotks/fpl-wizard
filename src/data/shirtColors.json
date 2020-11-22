@@ -1,0 +1,82 @@
+{
+    "Liverpool": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    }, 
+    "Manchester United": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Manchester City": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Chelsea": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Tottenham": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Arsenal": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Leicester": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Southampton": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Everton": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Leeds": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Aston Villa": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Burnley": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Brighton": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "West Ham": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Crystal Palace": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Sheffield United": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Wolverhampton": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Fulham": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "West Bromwich": {
+        "colors": ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "Newcastle": {
+        "colors": ["#801B0D", "#801B0D", "#11B5CE", "#11B5CE", "#11B5CE", "#54160E", "#54160E", "none"],
+        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"] 
+    }
+}
