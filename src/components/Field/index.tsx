@@ -74,39 +74,39 @@ function Field(props: IProps) {
                     <Grid container direction="column" className="rootGrid">
                         <Grid item container direction="row" justify="center" className="keepGrid">
                             <Grid item >
-                                <KeeperShirt />
+                                <KeeperShirt colors={getShirtColors("CrystalPalace")}/>
                                 <PlayerText />
                             </Grid>
                         </Grid>
                         <Grid item container direction="row" justify="space-between" className="defGrid">
                             <Grid item >
-                                <DefenderShirt />
+                                <DefenderShirt colors={getShirtColors("Liverpool")}/>
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <DefenderShirt />
+                                <DefenderShirt colors={getShirtColors("CrystalPalace")}/>
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <DefenderShirt />
+                                <DefenderShirt colors={getShirtColors("WestHam")}/>
                                 <PlayerText />
                             </Grid>
                         </Grid>
                         <Grid item container direction="row" justify="space-between" className="midGrid">
                             <Grid item >
-                                <MidfielderShirt />
+                                <MidfielderShirt colors={getShirtColors("Liverpool")}/>
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <MidfielderShirt />
+                                <MidfielderShirt colors={getShirtColors("Liverpool")}/>
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <MidfielderShirt />
+                                <MidfielderShirt colors={getShirtColors("WestHam")}/>
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <MidfielderShirt />
+                                <MidfielderShirt colors={getShirtColors("CrystalPalace")}/>
                                 <PlayerText />
                             </Grid>
                         </Grid>
