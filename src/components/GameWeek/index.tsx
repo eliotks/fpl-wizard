@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Container from '@material-ui/core/Container';
 import Field from '../Field';
+import Grid from '@material-ui/core/Grid';
 
 // import Image from '../../field.svg'; // Import using relative path
 // import { ReactComponent as Field} from '../../field.svg';
@@ -23,16 +24,29 @@ const styles = {
             height: "0",
         },
         boxShadow: "0px 0px 10px 1px #162236",
+
+        background: `repeating-linear-gradient(#ffffff, #ffffff 300px, #27EE14 300px, #27EE14)`
     },
     header: {
-        fontSize: 18
+        fontSize: 18,
+        fontFamily: "Nunito, sans-serif",
+        fontStyle: 'normal',
+        fontWeight: 500,
+        color: "#1f304d",
+    },
+    summary: {
+        paddingLeft: 30,
+        paddingRight: 30,
+        paddingTop: 6,
+        paddingBottom: 6,
     },
     field: {
         // padding: 50,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        paddingBottom: 20,
+        paddingBottom: 10,
+        
     },
 };
 
@@ -50,8 +64,18 @@ const GameWeek: React.FunctionComponent<IProps> = props =>  {
     return (
         <Container>
             <Accordion className={classes.root} expanded={expanded} onChange={() => setExpanded(! expanded)} style={{ borderRadius: 30 }}>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography className={classes.header}>{"GameWeek  " + gameweekNumber.toString()}</Typography>
+                <AccordionSummary className={classes.summary} expandIcon={<ExpandMoreIcon/>}>
+                    <Grid container spacing={10}>
+                        <Grid item>
+                            <Typography className={classes.header}>{"GameWeek  " + gameweekNumber.toString()}</Typography>
+                        </Grid>
+                        <Grid item>
+                            <Typography className={classes.header}>Predicted points:</Typography>
+                        </Grid>
+                        <Grid item>
+                            <Typography className={classes.header}>Actual points:</Typography>
+                        </Grid>
+                    </Grid>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Container className={classes.field}> <Field gameweekNumber={gameweekNumber}/> </Container>

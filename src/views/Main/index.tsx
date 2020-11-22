@@ -5,8 +5,6 @@ import Container from '@material-ui/core/Container';
 import GameWeekList from '../../components/GameWeekList';
 
 
-const sideMenuWidth: number = 220;
-
 const styles = () => 
 createStyles({
     root: {
