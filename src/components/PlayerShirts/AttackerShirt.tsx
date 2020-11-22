@@ -1,10 +1,13 @@
 import React from 'react';
+import { IProps } from './interfaces'
 
-function AttackerShirt() {
-    
-    // const colors = ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"] // Liverpool
-    const colors = ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"]; // Crystal Palace
+function AttackerShirt(props: IProps) {
+
     // const colors = ["#801B0D", "#801B0D", "#11B5CE", "#11B5CE", "#11B5CE", "#54160E", "#54160E", "none"] // West Ham
+    // const colors = ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]; // Liverpool
+    // const colors = ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"]; // Crystal Palace
+    const { colors } = props;
+  
     const color1 = colors[0]; // Hoveddel
     const color2 = colors[1]; // Stripene
     const color3 = colors[2]; // Armene

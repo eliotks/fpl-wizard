@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import gameweeks from '../../data/gameweeks.json';
+import teams from '../../data/teams.json';
 import { IPlayer } from '../../data/interfaces';
 import './index.css';
 import PlayerText from '../PlayerText';
@@ -9,6 +10,7 @@ import FieldBackground from '../FieldBackground';
 import MidfielderShirt from '../PlayerShirts/MidfielderShirt';
 import DefenderShirt from '../PlayerShirts/DefenderShirt';
 import KeeperShirt from '../PlayerShirts/KeeperShirt';
+import { IProps as IShirtProps } from '../PlayerShirts/interfaces';
 
 
 interface IProps {
@@ -20,8 +22,8 @@ function isKeyof<T extends object>(obj: T, possibleKey: keyof any): possibleKey 
     return possibleKey in obj;
 }
 
+
 function Field(props: IProps) {
-    
    
     const gameweekNumberString: string = props.gameweekNumber.toString();
 
@@ -38,7 +40,6 @@ function Field(props: IProps) {
     const midfielder4: IPlayer | undefined = gameWeek !== undefined ? gameWeek["midfielder4"] : undefined
     const attacker1: IPlayer | undefined = gameWeek !== undefined ? gameWeek["attacker1"] : undefined
     const attacker2: IPlayer | undefined = gameWeek !== undefined ? gameWeek["attacker2"] : undefined
-
     
     // Liverpool: const colors = ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
     // const colors = ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"]; // Crystal Palace
@@ -51,6 +52,16 @@ function Field(props: IProps) {
     // const color7 = colors[6]; // Hals
     // const color8 = colors[7]; // 'black' hvis drakten har striper, 'none' hvis ikke
 
+    const getShirtColors = (teamName: string): IShirtProps["colors"] => {
+        const defaultShirtColors: IShirtProps["colors"] = ["white", "white", "white", "white", "white", "white", "white", "white"]
+        const shirtColors: string[] | undefined = isKeyof(teams, teamName) ? teams[teamName]["colors"] : undefined
+        
+        if (shirtColors !== undefined && shirtColors.length === 8) {
+            // Has to be done this stupid way to please typescript
+            return [shirtColors[0], shirtColors[1], shirtColors[2], shirtColors[3], shirtColors[4], shirtColors[5], shirtColors[6], shirtColors[7]]
+        }
+        return defaultShirtColors
+    }
 
     return (
         <div>
@@ -101,15 +112,15 @@ function Field(props: IProps) {
                         </Grid>
                         <Grid item container direction="row" justify="space-between" className="attGrid">
                             <Grid item >
-                                <AttackerShirt />
+                                <AttackerShirt colors={getShirtColors("Liverpool")}/>
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <AttackerShirt />
+                                <AttackerShirt colors={getShirtColors("CrystalPalace")}/>
                                 <PlayerText />
                             </Grid>
                             <Grid item >
-                                <AttackerShirt />
+                                <AttackerShirt colors={getShirtColors("Liverpool")}/>
                                 <PlayerText />
                             </Grid>
                         </Grid>
