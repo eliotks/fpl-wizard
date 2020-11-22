@@ -1,82 +1,82 @@
 {
     "Liverpool": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#FF1B00", "#FF1B00", "#FF1B00", "white", "#00FFC5", "white", "#BE0000", "none"],
+        "keeperColors": ["#323535", "#141515", "#141515", "#323535"]
     }, 
     "Manchester United": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#CD0A0A", "#CD0A0A", "#CD0A0A", "#00033C", "#00033C", "01021D", "#9C0000", "none"],
+        "keeperColors": ["#1D1E1E", "#400505", "#400505", "#323535"]
     },
     "Manchester City": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#02DDFF", "#02DDFF", "#02DDFF", "white", "white", "#E3E3E3", "#00BAD7", "none"],
+        "keeperColors": ["#232525", "#141515", "#141515", "#323535"]
     },
     "Chelsea": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#0012F2", "#0012F2", "#0012F2", "#00065B", "#00065B", "#00065B", "#000DC5", "none"],
+        "keeperColors": ["#4CD354", "#181919", "#181919", "#3DA143"]
     },
     "Tottenham": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#F5F5F5", "#F5F5F5", "#F5F5F5", "#1E466D", "#1E466D", "#1E466D", "#F0F0F0", "none"],
+        "keeperColors": ["#E75800", "#181919", "#181919", "#C84E02"]
     },
     "Arsenal": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#E31818", "#E31818", "#F3F3F3", "#FF4343", "white", "#F3F3F3", "#E31818", "none"],
+        "keeperColors": ["#232525", "#141515", "#141515", "#323535"]
     },
     "Leicester": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#2237FF", "#2237FF", "#2237FF", "#F1F1F1", "#1E31E3", "#1E31E3", "#2237FF", "none"],
+        "keeperColors": ["#B3B3B3", "#0CE8C3", "#0CE8C3", "#A7A7A7"]
     },
     "Southampton": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#FF2020", "#FF2020", "#FF2020", "#0E0000", "white", "white", "#0E0000", "none"],
+        "keeperColors": ["#2BA8D1", "#5F5F5F", "#5F5F5F", "#A7A7A7"]
     },
     "Everton": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#0014D3", "#0014D3", "#0014D3", "#0011B5", "#F4F4F4", "#F4F4F4", "#0011B5", "none"],
+        "keeperColors": ["#40EA4A", "#181919", "#181919", "#3DA143"]
     },
     "Leeds": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#F9F9F9", "#F9F9F9", "#F9F9F9", "#0096FF", "#0096FF", "#0083FF", "#E1E1E1", "none"],
+        "keeperColors": ["#414141", "#099AF1", "#099AF1", "#323535"]
     },
     "Aston Villa": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#670E36", "#670E36", "#85B9E8", "#85B9E8", "#E5E5E5", "#E5E5E5", "#4F0B29", "none"],
+        "keeperColors": ["#32A639", "#40EA4A", "#40EA4A", "#2F9235"]
     },
     "Burnley": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#6C1D45", "#6C1D45", "#99D6EA", "#99D6EA", "#99D6EA", "#99D6EA", "#6C1D45", "none"],
+        "keeperColors": ["#44AB70", "#3E875D", "#3E875D", "#44AB70"]
     },
     "Brighton": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#0061E4", "white", "#0061E4", "white", "white", "white", "#004FBB", "black"],
+        "keeperColors": ["#E75800", "#B74600", "#B74600", "#E4732E"]
     },
     "West Ham": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#7A263A", "#7A263A", "#1BB1E7", "#5D1D2C", "#1BB1E7", "#1BB1E7", "#5D1D2C", "none"],
+        "keeperColors": ["#30A863", "#44D180", "#44D180", "#409D68"]
     },
     "Crystal Palace": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#E70D2F", "#0032FF", "#0032FF", "#0032FF", "#0032FF", "#0028CA", "#001688", "black"],
+        "keeperColors": ["#17E0AC", "#1DA985", "#1DA985", "#1DA985"]
     },
     "Sheffield United": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#F7F7F7", "#DA2828", "#F7F7F7", "#DA2828", "#030303", "#030303", "#E3E3E3", "black"],
+        "keeperColors": ["#DEE851", "#3C3C3C", "#3C3C3C", "#ADADAD"]
     },
     "Wolverhampton": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#FDB913", "#FDB913", "#0D0C0C", "#FDB913", "#0D0C0C", "#0D0C0C", "#D39600", "none"],
+        "keeperColors": ["#ACFA49", "#383838", "#383838", "#ACFA49"]
     },
     "Fulham": {
-        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#F9F9F9", "#F9F9F9", "#0D0C0C", "#F9F9F9", "#0D0C0C", "#0D0C0C", "#CACACA", "none"],
+        "keeperColors": ["#93FA5C", "#383838", "#383838", "#7EF041"]
     },
     "West Bromwich": {
-        "colors": ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+        "colors": ["#FFFFFF", "#122F67", "#122F67", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#0B1F44", "black"],
+        "keeperColors": ["#29E7B9", "#383838", "#383838", "#29E7B9"]
     },
     "Newcastle": {
-        "colors": ["#801B0D", "#801B0D", "#11B5CE", "#11B5CE", "#11B5CE", "#54160E", "#54160E", "none"],
-        "keeperColors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"] 
+        "colors": ["#FFFFFF", "#141515", "#141515", "#FFFFFF", "#000000", "#000000", "white", "black"],
+        "keeperColors": ["#0065A0", "#383838", "#383838", "#005282"] 
     }
 }

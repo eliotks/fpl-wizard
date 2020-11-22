@@ -3,9 +3,6 @@ import { IProps } from './interfaces';
 
 function MidfielderShirt(props: IProps) {
     
-    // const colors = ["#801B0D", "#801B0D", "#11B5CE", "#11B5CE", "#11B5CE", "#54160E", "#54160E", "none"] // West Ham
-    // const colors = ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]; // Liverpool
-    // const colors = ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"]; // Crystal Palace
     const { colors } = props;
   
     const color1 = colors[0]; // Hoveddel
