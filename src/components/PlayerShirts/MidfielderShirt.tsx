@@ -1,9 +1,11 @@
 import React from 'react';
+import { IProps } from './interfaces';
 
-function MidfielderShirt() {
+function MidfielderShirt(props: IProps) {
     
-    const colors = ["red", "red", "red", "white", "white", "#E1E1E1", "brown", "none"]
+    // HER const colors = ["red", "red", "red", "white", "white", "#E1E1E1", "brown", "none"]
     // const colors = ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"]; // Crystal Palace
+    const { colors } = props;
     const color1 = colors[0]; // Hoveddel
     const color2 = colors[1]; // Stripene
     const color3 = colors[2]; // Armene
