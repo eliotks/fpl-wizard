@@ -3,9 +3,11 @@ import { IProps } from './interfaces';
 
 function MidfielderShirt(props: IProps) {
     
-    // HER const colors = ["red", "red", "red", "white", "white", "#E1E1E1", "brown", "none"]
+    // const colors = ["#801B0D", "#801B0D", "#11B5CE", "#11B5CE", "#11B5CE", "#54160E", "#54160E", "none"] // West Ham
+    // const colors = ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]; // Liverpool
     // const colors = ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"]; // Crystal Palace
     const { colors } = props;
+  
     const color1 = colors[0]; // Hoveddel
     const color2 = colors[1]; // Stripene
     const color3 = colors[2]; // Armene
@@ -18,106 +20,94 @@ function MidfielderShirt(props: IProps) {
 
     return (
         <div>
-            <svg width="120" height="120">
+            <svg width="100" height="100">
 
                 {/* Venstre arm (stor versjon) */}
-                <path d="M 20 20
-                S 10 20, 12 40 L 12 40
-                S 13 50, 11 60 L 11 60
-                S 25 60, 28 58 L 40 30 Z
+                <path d="M 16.667 16.667
+                S 8.333 16.667, 10 33.333 L 10 33.333
+                S 10.833 41.667, 9.167 50 L 9.167 50
+                S 20.833 50, 23.333 48.333 L 33.333 25 Z
                 " stroke="black" stroke-width="1" fill={color4} />
 
                 {/* Venstre arm (liten versjon) */}
-                <path d="M 20 20
-                S 10 20, 12 40 L 12 40
-                S 12.6 50, 11.8 55 L 11.8 55
-                S 25 55, 28 53 L 40 30 Z
-                " stroke="none" stroke-width="1" fill={color3} />
+                <path d="M 16.667 16.667 
+                S 8.333 16.667, 10 33.333 L 10 33.333 
+                S 10.5 41.667, 9.833 45.833 L 9.833 45.833 
+                S 20.833 45.833, 23.333 44.167 L 33.333 25 Z" stroke="none" stroke-width="1" fill={color3} />
 
                 {/* Venstre arm (omriss) */}
-                <path d="M 20 20
-                S 10 20, 12 40 L 12 40
-                S 12.6 50, 11.8 55 L 11.8 55
-                S 25 55, 28 53 L 40 30 Z
-                " stroke="black" stroke-width="1" fill="none" />
+                <path d="M 16.667 16.667 
+                S 8.333 16.667, 10 33.333 L 10 33.333 
+                S 10.5 41.667, 9.833 45.833 L 9.833 45.833 
+                S 20.833 45.833, 23.333 44.167 L 33.333 25 Z" stroke="black" stroke-width="1" fill="none" />
 
                 {/* Høyre arm (stor versjon) */}
-                <path d="M 100 20
-                S 110 20, 108 40 L 108 40
-                S 107 50, 109 60 L 109 60
-                S 95 60, 92 58 L 80 30 Z
-                " stroke="black" stroke-width="1" fill={color4} />
+                <path d="M 83.333 16.667 
+                S 91.667 16.667, 90 33.333 L 90 33.333 
+                S 89.167 41.667, 90.833 50 L 90.833 50 
+                S 79.167 50, 76.667 48.333 L 66.667 25 Z" stroke="black" stroke-width="1" fill={color4} />
 
                 {/* Høyre arm (liten versjon) */}
-                <path d="M 100 20
-                S 110 20, 108 40 L 108 40
-                S 107.4 50, 108.2 55 L 108.2 55
-                S 95 55, 92 53 L 80 30 Z
-                " stroke="none" stroke-width="1" fill={color3} />
+                <path d="M 83.333 16.667 
+                S 91.667 16.667, 90 33.333 L 90 33.333 
+                S 89.5 41.667, 90.167 45.833 L 90.167 45.833 
+                S 79.167 45.833, 76.667 44.167 L 66.667 25 Z" stroke="none" stroke-width="1" fill={color3} />
 
                 {/* Høyre arm (omriss) */}
-                <path d="M 100 20
-                S 110 20, 108 40 L 108 40
-                S 107.4 50, 108.2 55 L 108.2 55
-                S 95 55, 92 53 L 80 30 Z
-                " stroke="black" stroke-width="1" fill="none" />
+                <path d="M 83.333 16.667 
+                S 91.667 16.667, 90 33.333 L 90 33.333 
+                S 89.5 41.667, 90.167 45.833 L 90.167 45.833 
+                S 79.167 45.833, 76.667 44.167 L 66.667 25 Z" stroke="black" stroke-width="1" fill="none" />
 
-                {/* Hoveddel
-                82 10
-                */}
-                <path d="M 25 115 
-                S 35 50, 20 20 L 20 20 
-                S 35 20, 37.2 10.5 L 37.2 10.5 
-                S 60 55, 82.8 10.5 L 82.8 10.5 
-                S 85 20, 100 20 L 100 20 
-                S 85 50, 95 115 L 95 115 
-                S 60 120, 25 115" stroke="black" stroke-width="1" fill={color1} />
+                {/* Hoveddel */}
+                <path d="M 20.833 95.833 
+                S 29.167 41.667, 16.667 16.667 L 16.667 16.667 
+                S 29.167 16.667, 31 8.75 L 31 8.75 
+                S 50 45.833, 69 8.75 L 69 8.75 
+                S 70.833 16.667, 83.333 16.667 L 83.333 16.667 
+                S 70.833 41.667, 79.167 95.833 L 79.167 95.833 
+                S 50 100, 20.833 95.833" stroke="black" stroke-width="1" fill={color1} />
 
                 {/* Stripe 1 */}
-                <path d="M 39 116.4  
-                S 47 50, 35 15 L 35 15
-                S 38 11 38 10 L 38 10
-                S 49 32 53.6 28 L 53.6 28
-                S 56 50, 53 117 L 53 117
-                S 46 117 39 116.4
-                " stroke={color8} stroke-width="1" fill={color2} />
+                <path d="M 32.5 97 
+                S 39.167 41.667, 29.167 12.5 L 29.167 12.5 
+                S 31.667 9.167 31.667 8.333 L 31.667 8.333 
+                S 40.833 26.667 44.667 23.333 L 44.667 23.333 
+                S 46.667 41.667, 44.167 97.5 L 44.167 97.5 
+                S 38.333 97.5 32.5 97" stroke={color8} stroke-width="1" fill={color2} />
 
                 {/* Stripe 2 */}
-                <path d="M 67 117
-                S 64 80 66.4 28 L 66.4 28
-                S 70 32, 82 10 L 82 10
-                S 82 11, 85 15 L 85 15
-                S 73 50, 81 116.4 L 81 116.4
-                S 74 117, 67 117
-                " stroke={color8} stroke-width="1" fill={color2} />
+                <path d="M 55.833 97.5 
+                S 53.333 66.667 55.333 23.333 L 55.333 23.333 
+                S 58.333 26.667, 68.333 8.333 L 68.333 8.333 
+                S 68.333 9.167, 70.833 12.5 L 70.833 12.5 
+                S 60.833 41.667, 67.5 97 L 67.5 97
+                S 61.667 97.5, 55.833 97.5" stroke={color8} stroke-width="1" fill={color2} />
 
                 {/* Krage bak */}
-                <path d="M 40 11
-                S 60 55, 79.5 11 L 79.5 11
-                S 60 20, 40 11  
-                " stroke="black" stroke-width="1" fill={color6} />
+                <path d="M 33.333 9.167 
+                S 50 45.833, 66.25 9.167 L 66.25 9.167 
+                S 50 16.667, 33.333 9.167" stroke="black" stroke-width="1" fill={color6} />
 
                 {/* Hals */}
-                <path d="M 44 16
-                S 60 46, 76 16 L 76 16
-                S 60 23, 44 16  
-                " stroke="black" stroke-width="1" fill={color7} />
+                <path d="M 36.667 13.333 
+                S 50 38.333, 63.333 13.333 L 63.333 13.333 
+                S 50 19.167, 36.667 13.333" stroke="black" stroke-width="1" fill={color7} />
 
                 {/* Selve kragen */}
-                <path d="M 43 12.2
-                S 60 48, 77 12 L 77 12
-                L 82.6 9.6
-                S 62 61, 37.4 9.6 Z
-                " stroke="black" stroke-width="1" fill={color5} />
+                <path d="M 35.833 10.167 
+                S 50 40, 64.167 10 L 64.167 10 
+                L 68.833 8 
+                S 51.667 50.833, 31.167 8 Z" stroke="black" stroke-width="1" fill={color5} />
 
                 {/* Omriss */}
-                <path d="M 25 115 
-                S 35 50, 20 20 L 20 20 
-                S 35 20, 37.2 10.5 L 37.2 10.5 
-                S 60 60, 82.8 10.5 L 82.8 10.5 
-                S 85 20, 100 20 L 100 20 
-                S 85 50, 95 115 L 95 115 
-                S 60 120, 24.5 115" stroke="black" stroke-width="1" fill="none" />
+                <path d="M 20.833 95.833 
+                S 29.167 41.667, 16.667 16.667 L 16.667 16.667 
+                S 29.167 16.667, 31 8.75 L 31 8.75 
+                S 50 50, 69 8.75 L 69 8.75 
+                S 70.833 16.667, 83.333 16.667 L 83.333 16.667 
+                S 70.833 41.667, 79.167 95.833 L 79.167 95.833 
+                S 50 100, 20.417 95.833" stroke="black" stroke-width="1" fill="none" />
 
             </svg>
         </div>
