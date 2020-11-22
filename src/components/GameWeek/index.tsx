@@ -5,10 +5,10 @@ import Accordion from '@material-ui/core/Accordion';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Container from '@material-ui/core/Container';
 import Field from '../Field';
+import Grid from '@material-ui/core/Grid';
 
 // import Image from '../../field.svg'; // Import using relative path
 // import { ReactComponent as Field} from '../../field.svg';
@@ -18,18 +18,35 @@ import Field from '../Field';
 
 const styles = {
     root: {
-        padding: 16,
-        borderRadius: 3
+        width: 1000,
+        // Fixes some weird bug
+        '&:before': {
+            height: "0",
+        },
+        boxShadow: "0px 0px 10px 1px #162236",
+
+        background: `repeating-linear-gradient(#ffffff, #ffffff 300px, #27EE14 300px, #27EE14)`
     },
     header: {
-        fontSize: 18
+        fontSize: 18,
+        fontFamily: "Nunito, sans-serif",
+        fontStyle: 'normal',
+        fontWeight: 500,
+        color: "#1f304d",
+    },
+    summary: {
+        paddingLeft: 30,
+        paddingRight: 30,
+        paddingTop: 6,
+        paddingBottom: 6,
     },
     field: {
-        width: '100%',
-        padding: 50,
+        // padding: 50,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        paddingBottom: 10,
+        
     },
 };
 
@@ -45,14 +62,26 @@ const GameWeek: React.FunctionComponent<IProps> = props =>  {
     
     const { classes, gameweekNumber } = props;
     return (
-        <Accordion  className={classes.root} expanded={expanded} onChange={() => setExpanded(! expanded)}>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography className={classes.header}>{"GameWeek  " + gameweekNumber.toString()}</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-                <Container className={classes.field}> <Field gameweekNumber={gameweekNumber}/> </Container>
-            </AccordionDetails>
-        </Accordion>
+        <Container>
+            <Accordion className={classes.root} expanded={expanded} onChange={() => setExpanded(! expanded)} style={{ borderRadius: 30 }}>
+                <AccordionSummary className={classes.summary} expandIcon={<ExpandMoreIcon/>}>
+                    <Grid container spacing={10}>
+                        <Grid item>
+                            <Typography className={classes.header}>{"GameWeek  " + gameweekNumber.toString()}</Typography>
+                        </Grid>
+                        <Grid item>
+                            <Typography className={classes.header}>Predicted points:</Typography>
+                        </Grid>
+                        <Grid item>
+                            <Typography className={classes.header}>Actual points:</Typography>
+                        </Grid>
+                    </Grid>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Container className={classes.field}> <Field gameweekNumber={gameweekNumber}/> </Container>
+                </AccordionDetails>
+            </Accordion>
+        </Container>
     )
 }
 

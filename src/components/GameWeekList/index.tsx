@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import { WithStyles } from "@material-ui/styles";
 import GameWeek from '../GameWeek';
+import Container from '@material-ui/core/Container';
 
 
 const styles = {
   root: {
-    padding: 10,
+    padding: 40,
     '& > div': {
-        marginBottom: 25,
+        marginBottom: 50,
     },
   },
 };
@@ -23,7 +24,7 @@ const GameWeekList: React.FunctionComponent<IProps> = props =>  {
     return (
         <div className={classes.root}>
             {gameweeks.map((item, index) => {
-                return <GameWeek gameweekNumber={item}/>
+                return <Container><GameWeek gameweekNumber={item}/></Container>
             })}
         </div>
     )
