@@ -1,0 +1,11 @@
+{
+    "Liverpool": {
+        "colors": ["red", "red", "red", "white", "white", "BFBFBF", "brown", "none"]
+    },
+    "CrystalPalace": {
+        "colors": ["blue", "red", "blue", "red", "blue", "blue", "navy", "black"]
+    },
+    "WestHam": {
+        "colors": ["#801B0D", "#801B0D", "#11B5CE", "#11B5CE", "#11B5CE", "#54160E", "#54160E", "none"] 
+    }
+}
