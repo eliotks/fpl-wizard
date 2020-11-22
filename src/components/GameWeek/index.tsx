@@ -5,7 +5,6 @@ import Accordion from '@material-ui/core/Accordion';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Container from '@material-ui/core/Container';
 import Field from '../Field';
@@ -18,18 +17,22 @@ import Field from '../Field';
 
 const styles = {
     root: {
-        padding: 16,
-        borderRadius: 3
+        width: 1000,
+        // Fixes some weird bug
+        '&:before': {
+            height: "0",
+        },
+        boxShadow: "0px 0px 10px 1px #162236",
     },
     header: {
         fontSize: 18
     },
     field: {
-        width: '100%',
-        padding: 50,
+        // padding: 50,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        paddingBottom: 20,
     },
 };
 
@@ -45,14 +48,16 @@ const GameWeek: React.FunctionComponent<IProps> = props =>  {
     
     const { classes, gameweekNumber } = props;
     return (
-        <Accordion  className={classes.root} expanded={expanded} onChange={() => setExpanded(! expanded)}>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography className={classes.header}>{"GameWeek  " + gameweekNumber.toString()}</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-                <Container className={classes.field}> <Field gameweekNumber={gameweekNumber}/> </Container>
-            </AccordionDetails>
-        </Accordion>
+        <Container>
+            <Accordion className={classes.root} expanded={expanded} onChange={() => setExpanded(! expanded)} style={{ borderRadius: 30 }}>
+                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                    <Typography className={classes.header}>{"GameWeek  " + gameweekNumber.toString()}</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Container className={classes.field}> <Field gameweekNumber={gameweekNumber}/> </Container>
+                </AccordionDetails>
+            </Accordion>
+        </Container>
     )
 }
 

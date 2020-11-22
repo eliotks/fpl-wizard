@@ -2,15 +2,36 @@ import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import Link from '@material-ui/core/Link';
 import { withStyles } from '@material-ui/core/styles';
-import { WithStyles } from "@material-ui/styles"
+import { WithStyles, createStyles } from "@material-ui/styles"
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
-const styles = {
+const styles = () => 
+    createStyles({
     root: {
+        backgroundColor: "#ffffff",
+        position: "absolute",
         padding: 24,
+        paddingTop: 28,
+        boxShadow: "0px 0px 50px 1px #162236",
+        zIndex: 2,
     },
-};
+    mainLogo: {
+        fontFamily: "Nunito, sans-serif",
+        fontStyle: 'normal',
+        fontSize: 25,
+        fontWeight: 600,
+        letterSpacing: -1,
+        color: "#1f304d",
+    },
+    about: {
+        color: "#1f304d",
+        paddingRight: 20,
+    },
+    aboutText: {
+        fontSize: 20,
+    }
+});
 
 
 type IProps = WithStyles<typeof styles>
@@ -27,13 +48,14 @@ const Header: React.FunctionComponent<IProps> = props =>  {
             alignItems="center"
         >
             <Grid item>
-            <Link component={RouterLink} to="/about">
-                <Typography> HEI </Typography>
-            </Link>
-                
+                <Link component={RouterLink} to="/" underline="none">
+                    <Typography className={classes.mainLogo}> FPL DREAM TEAM </Typography>
+                </Link>
             </Grid>
-            <Grid item>
-                <Typography> HEI </Typography>
+            <Grid item className={classes.about}>
+                <Link component={RouterLink} to="/about" color="inherit">
+                    <Typography className={classes.aboutText}> ABOUT </Typography>
+                </Link>
             </Grid>
         </Grid>
     )
