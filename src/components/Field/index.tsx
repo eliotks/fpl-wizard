@@ -48,17 +48,12 @@ function Field(props: IProps) {
                     <Grid container direction="column" className="rootGrid">
                         <Grid item container direction="row" justify="center" className="keepGrid">
                             <Grid item >
-<<<<<<< HEAD
                                 <KeeperShirt colors={getShirtColors("none")} />
-=======
-                                <KeeperShirt colors={getShirtColors("CrystalPalace")}/>
->>>>>>> f865ee5a521f018725a9d7adcef91d7b2620162d
                                 <PlayerText />
                             </Grid>
                         </Grid>
                         <Grid item container direction="row" justify="space-between" className="defGrid">
                             <Grid item >
-<<<<<<< HEAD
                                 <DefenderShirt colors={getShirtColors("none")} />
                                 <PlayerText />
                             </Grid>
@@ -68,23 +63,11 @@ function Field(props: IProps) {
                             </Grid>
                             <Grid item >
                                 <DefenderShirt colors={getShirtColors("none")} />
-=======
-                                <DefenderShirt colors={getShirtColors("Liverpool")}/>
-                                <PlayerText />
-                            </Grid>
-                            <Grid item >
-                                <DefenderShirt colors={getShirtColors("CrystalPalace")}/>
-                                <PlayerText />
-                            </Grid>
-                            <Grid item >
-                                <DefenderShirt colors={getShirtColors("WestHam")}/>
->>>>>>> f865ee5a521f018725a9d7adcef91d7b2620162d
                                 <PlayerText />
                             </Grid>
                         </Grid>
                         <Grid item container direction="row" justify="space-between" className="midGrid">
                             <Grid item >
-<<<<<<< HEAD
                                 <MidfielderShirt colors={getShirtColors("none")} />
                                 <PlayerText />
                             </Grid>
@@ -98,21 +81,6 @@ function Field(props: IProps) {
                             </Grid>
                             <Grid item >
                                 <MidfielderShirt colors={getShirtColors("none")} />
-=======
-                                <MidfielderShirt colors={getShirtColors("Liverpool")}/>
-                                <PlayerText />
-                            </Grid>
-                            <Grid item >
-                                <MidfielderShirt colors={getShirtColors("Liverpool")}/>
-                                <PlayerText />
-                            </Grid>
-                            <Grid item >
-                                <MidfielderShirt colors={getShirtColors("WestHam")}/>
-                                <PlayerText />
-                            </Grid>
-                            <Grid item >
-                                <MidfielderShirt colors={getShirtColors("CrystalPalace")}/>
->>>>>>> f865ee5a521f018725a9d7adcef91d7b2620162d
                                 <PlayerText />
                             </Grid>
                         </Grid>
