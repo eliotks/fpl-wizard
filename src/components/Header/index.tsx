@@ -10,7 +10,7 @@ const styles = () =>
     createStyles({
     root: {
         backgroundColor: "#ffffff",
-        position: "absolute",
+        position: "fixed",
         padding: 24,
         paddingTop: 28,
         boxShadow: "0px 0px 10px 1px #162236",

@@ -26,6 +26,9 @@ const styles = {
     backgroundSize: "100%",
     backgroundRepeat: "repeat",
   },
+  semiRoot: {
+    backdropFilter: "blur(3px)",
+  }
 };
 
 
@@ -35,8 +38,10 @@ const App: React.FunctionComponent<IProps> = props => {
   const { classes } = props;
   return (
     <Router>
+      <Header/>
       <div className={classes.root}>
-          <Header/>
+        <div className={classes.semiRoot}>
+          
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
@@ -48,6 +53,7 @@ const App: React.FunctionComponent<IProps> = props => {
             </Route>
           </Switch>
           <Footer/>
+        </div>
       </div>
     </Router>
   );
