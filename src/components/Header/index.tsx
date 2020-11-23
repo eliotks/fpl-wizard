@@ -22,10 +22,10 @@ const styles = () =>
         fontSize: 25,
         fontWeight: 600,
         letterSpacing: -1,
-        color: "#1f304d",
+        color: "#094456",
     },
     about: {
-        color: "#1f304d",
+        color: "#094456",
         paddingRight: 20,
     },
     aboutText: {

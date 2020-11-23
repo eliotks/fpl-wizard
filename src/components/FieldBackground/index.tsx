@@ -18,7 +18,7 @@ function FieldBackground() {
                 <rect x="0" y="60" width="1000" height="30" stroke="none" fill="#27EE14" />
 
                 {/* Bakgrunn */}
-                <polyline points="0,0 0,360 172,60 828,60 1000,360 1000,0 0,0" stroke="none" fill="#34507d" />
+                <polyline points="0,0 0,360 172,60 828,60 1000,360 1000,0 0,0" stroke="none" fill="#1F1F1F" />
 
                 {/* <rect x="0" y="0" width="1000" height="60" style="fill:#34507d;stroke:none"/>
                 <path d="M 172 60 S -20 300, 0 650 L -10 -10 L 828 60 S 1020 300, 1000 650 L 1010 -10 L 172 60" style="fill:#34507d;stroke:none" /> */}
