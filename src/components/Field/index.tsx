@@ -15,7 +15,7 @@ import KeeperShirt from '../PlayerShirts/KeeperShirt';
 interface IProps {
     gameweekNumber: number
 }
- 
+
 
 function Field(props: IProps) {
    

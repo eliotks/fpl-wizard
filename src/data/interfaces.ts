@@ -1,8 +1,8 @@
 export interface IPlayer {
     name: string;
     team: string;
-    prediction: number;
-    score: number;
+    prediction: number | string;
+    score: number | string;
 }
 
 export interface IGameWeek {
