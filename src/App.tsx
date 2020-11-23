@@ -41,7 +41,6 @@ const App: React.FunctionComponent<IProps> = props => {
       <Header/>
       <div className={classes.root}>
         <div className={classes.semiRoot}>
-          
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
