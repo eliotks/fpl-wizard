@@ -23,7 +23,7 @@ const styles = {
         '&:before': {
             height: "0",
         },
-        boxShadow: "0px 1px 5px 1px #000000",
+        boxShadow: "0px 1px 5px 1px #1F1F1F",
 
         background: `repeating-linear-gradient(#ffffff, #ffffff 300px, #27EE14 300px, #27EE14)`
     },
@@ -32,7 +32,7 @@ const styles = {
         fontFamily: "Nunito, sans-serif",
         fontStyle: 'normal',
         fontWeight: 600,
-        color: "#094456",
+        color: "#05303D",
     },
     summary: {
         paddingLeft: 30,
