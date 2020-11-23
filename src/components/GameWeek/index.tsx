@@ -25,7 +25,6 @@ const styles = {
             height: "0",
         },
         boxShadow: "0px 1px 5px 1px #1F1F1F",
-
         background: `repeating-linear-gradient(#ffffff, #ffffff 300px, #27EE14 300px, #27EE14)`
     },
     header: {

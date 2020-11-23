@@ -8,7 +8,7 @@ import GameWeekList from '../../components/GameWeekList';
 const styles = () => 
 createStyles({
     root: {
-        padding: "130px 60px 10px 60px",
+        padding: "180px 10px 10px 10px",
     },
 });
 

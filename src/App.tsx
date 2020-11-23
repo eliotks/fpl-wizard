@@ -29,14 +29,14 @@ import Image14 from './pictures/plain1.jpg';
 
 const styles = {
   root: {
-    backgroundImage:  `url(${Image11})`,
+    backgroundImage:  `url(${Image7})`,
     //background: "#34507d",
     minHeight: '100vh',
     backgroundSize: "100%",
     backgroundRepeat: "repeat",
   },
   semiRoot: {
-    // backdropFilter: "blur(3px)",
+    //backdropFilter: "blur(3px)",
   }
 };
 
@@ -56,7 +56,7 @@ const App: React.FunctionComponent<IProps> = props => {
             <Route path="/about">
                 <About/>
             </Route>
-            <Route path="/">
+            <Route  path="/">
                 <Main/>
             </Route>
           </Switch>

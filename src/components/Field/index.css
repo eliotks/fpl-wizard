@@ -40,3 +40,10 @@
 .player {
     align-content: center;
 }
+
+.player svg {
+    display: block;
+    margin: auto;
+}
+
+
