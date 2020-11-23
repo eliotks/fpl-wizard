@@ -38,7 +38,7 @@ function Field(props: IProps) {
                     <Grid container direction="column" className="rootGrid">
                         <Grid item container direction="row" justify="center" className="keepGrid">
                             <Grid item >
-                                <KeeperShirt colors={getShirtColors(keeper.team)} />
+                                <KeeperShirt colors={getKeeperShirtColors(keeper.team)} />
                                 <PlayerText name={keeper.name} team={keeper.team} prediction={keeper.prediction} score={keeper.score}/>
                             </Grid>
                         </Grid>
