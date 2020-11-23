@@ -12,32 +12,31 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #032254;
     width: 100%;
 }
 
-/* .rootGrid {
-
-} */
-
 .keepGrid {
-    padding-top: 30px;
+    padding-top: 18px;
 }
 
 .defGrid {
-    padding-top: 5px;
+    padding-top: 13px;
     padding-left: 180px;
     padding-right: 180px;
 }
 
 .midGrid {
-    padding-top: 5px;
+    padding-top: 13px;
     padding-left: 85px;
     padding-right: 85px;
 }
 
 .attGrid {
-    padding-top: 5px;
+    padding-top: 13px;
     padding-left: 160px;
     padding-right: 160px;
+}
+
+.player {
+    align-content: center;
 }

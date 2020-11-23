@@ -36,7 +36,7 @@ const styles = {
     backgroundRepeat: "repeat",
   },
   semiRoot: {
-    backdropFilter: "blur(3px)",
+    // backdropFilter: "blur(3px)",
   }
 };
 

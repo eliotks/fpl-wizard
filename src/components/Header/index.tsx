@@ -9,11 +9,11 @@ import Grid from '@material-ui/core/Grid';
 const styles = () => 
     createStyles({
     root: {
-        backgroundColor: "#ffffff",
+        backgroundColor: "#262626",
         position: "fixed",
         padding: 24,
         paddingTop: 28,
-        boxShadow: "0px 0px 10px 1px #162236",
+        boxShadow: "0px 0px 10px 1px #262626",
         zIndex: 2,
     },
     mainLogo: {
@@ -22,10 +22,10 @@ const styles = () =>
         fontSize: 25,
         fontWeight: 600,
         letterSpacing: -1,
-        color: "#05303D",
+        color: "#FFFFFF",
     },
     about: {
-        color: "#05303D",
+        color: "#FFFFFF",
         paddingRight: 20,
     },
     aboutText: {

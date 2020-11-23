@@ -9,6 +9,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Container from '@material-ui/core/Container';
 import Field from '../Field';
 import Grid from '@material-ui/core/Grid';
+import gameweeks from '../../data/gameweeks.json';
 
 // import Image from '../../field.svg'; // Import using relative path
 // import { ReactComponent as Field} from '../../field.svg';
@@ -32,7 +33,7 @@ const styles = {
         fontFamily: "Nunito, sans-serif",
         fontStyle: 'normal',
         fontWeight: 600,
-        color: "#05303D",
+        color: "#000000",
     },
     summary: {
         paddingLeft: 30,
@@ -70,10 +71,7 @@ const GameWeek: React.FunctionComponent<IProps> = props =>  {
                             <Typography className={classes.header}>{"GameWeek  " + gameweekNumber.toString()}</Typography>
                         </Grid>
                         <Grid item>
-                            <Typography className={classes.header}>Predicted points:</Typography>
-                        </Grid>
-                        <Grid item>
-                            <Typography className={classes.header}>Actual points:</Typography>
+                            <Typography className={classes.header}>Gameweek score: 57</Typography>
                         </Grid>
                     </Grid>
                 </AccordionSummary>

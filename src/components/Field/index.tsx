@@ -37,7 +37,7 @@ function Field(props: IProps) {
                 <div className="team">
                     <Grid container direction="column" className="rootGrid">
                         <Grid item container direction="row" justify="center" className="keepGrid">
-                            <Grid item >
+                            <Grid item className="player">
                                 <KeeperShirt colors={getKeeperShirtColors(keeper.team)} />
                                 <PlayerText name={keeper.name} team={keeper.team} prediction={keeper.prediction} score={keeper.score}/>
                             </Grid>
@@ -45,7 +45,7 @@ function Field(props: IProps) {
                         <Grid item container direction="row" justify="space-between" className="defGrid">
                             {defenders.map(player => {
                                 return (
-                                    <Grid item >
+                                    <Grid item className="player">
                                         <DefenderShirt colors={getShirtColors(player.team)} />
                                         <PlayerText name={player.name} team={player.team} prediction={player.prediction} score={player.score}/>
                                     </Grid>
@@ -55,7 +55,7 @@ function Field(props: IProps) {
                         <Grid item container direction="row" justify="space-between" className="midGrid">
                             {midfielders.map(player => {
                                 return (
-                                    <Grid item >
+                                    <Grid item className="player">
                                         <MidfielderShirt colors={getShirtColors(player.team)} />
                                         <PlayerText name={player.name} team={player.team} prediction={player.prediction} score={player.score}/>
                                     </Grid>
@@ -65,7 +65,7 @@ function Field(props: IProps) {
                         <Grid item container direction="row" justify="space-between" className="attGrid">
                             {attackers.map(player => {
                                 return (
-                                    <Grid item >
+                                    <Grid item className="player">
                                         <AttackerShirt colors={getShirtColors(player.team)} />
                                         <PlayerText name={player.name} team={player.team} prediction={player.prediction} score={player.score}/>
                                     </Grid>
