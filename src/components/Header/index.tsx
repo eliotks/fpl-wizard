@@ -13,7 +13,7 @@ const styles = () =>
         position: "absolute",
         padding: 24,
         paddingTop: 28,
-        boxShadow: "0px 0px 50px 1px #162236",
+        boxShadow: "0px 0px 10px 1px #162236",
         zIndex: 2,
     },
     mainLogo: {

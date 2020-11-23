@@ -23,7 +23,7 @@ const styles = {
         '&:before': {
             height: "0",
         },
-        boxShadow: "0px 0px 10px 1px #162236",
+        boxShadow: "0px 1px 5px 1px #162236",
 
         background: `repeating-linear-gradient(#ffffff, #ffffff 300px, #27EE14 300px, #27EE14)`
     },

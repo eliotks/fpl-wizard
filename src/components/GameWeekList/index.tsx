@@ -9,7 +9,7 @@ const styles = {
   root: {
     padding: 40,
     '& > div': {
-        marginBottom: 50,
+        marginBottom: 70,
     },
   },
 };

@@ -11,14 +11,19 @@ import {
   Route,
 } from "react-router-dom";
 
-import Image from './pictures/alex-KEEpi-SOM_s-unsplash.jpg'; // Import using relative path
+import Image1 from './pictures/alex-KEEpi-SOM_s-unsplash.jpg';
+import Image2 from './pictures/henrique-macedo-8RzMsxk3wgg-unsplash.jpg';
+import Image3 from './pictures/vienna-reyes-qCrKTET_09o-unsplash.jpg';
+import Image4 from './pictures/kpio.jpg';
+import Image5 from './pictures/willian-justen-de-vasconcellos-KqpDuf1i83w-unsplash.jpg';
 
 const styles = {
   root: {
-    background:  `url(${Image})`,
+    backgroundImage:  `url(${Image5})`,
     //background: "#34507d",
     minHeight: '100vh',
-    backgroundSize: "cover"
+    backgroundSize: "100%",
+    backgroundRepeat: "repeat",
   },
 };
 
