@@ -2,6 +2,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import { WithStyles } from "@material-ui/styles"
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Main from './views/Main';
 import About from './views/About';
 
@@ -35,7 +36,7 @@ const App: React.FunctionComponent<IProps> = props => {
   return (
     <Router>
       <div className={classes.root}>
-          <Header></Header>
+          <Header/>
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
@@ -46,6 +47,7 @@ const App: React.FunctionComponent<IProps> = props => {
                 <Main/>
             </Route>
           </Switch>
+          <Footer/>
       </div>
     </Router>
   );
