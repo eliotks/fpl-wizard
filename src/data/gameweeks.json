@@ -1,457 +1,462 @@
 {
     "4": {
-        "totalPrediction": 52,
-        "totalPoints": 70,
+        "totalPrediction": 77.24,
+        "totalPoints": 94,
         "keeper": {
-            "name": "Jan",
-            "team": "Liverpool",
-            "prediction": 3.34,
-            "score": 6
+            "name": "McCarthy",
+            "team": "Southampton",
+            "prediction": 4.06,
+            "score": 9
         },
         "defenders": [
             {
-                "name": "Jan Igjen",
-                "team": "Manchester United",
-                "prediction": 4.39,
-                "score": 11
+                "name": "Bertrand",
+                "team": "Southampton",
+                "prediction": 5.04,
+                "score": 6
             },
             {
-                "name": "Jan En Gang Til",
-                "team": "Manchester City",
-                "prediction": 3.95,
-                "score": 2
-            },
-            {
-                "name": "Også Jan",
-                "team": "Chelsea",
-                "prediction": 3.80,
+                "name": "Söyüncü",
+                "team": "Leicester",
+                "prediction": 5.14,
                 "score": 1
+            },
+            {
+                "name": "Doherty",
+                "team": "Tottenham",
+                "prediction": 5.41,
+                "score": 0
             }
         ],
         "midfielders": [
             {
-                "name": "Fortsatt Jan",
+                "name": "Son (C)",
                 "team": "Tottenham",
-                "prediction": 5.16,
-                "score": 6
+                "prediction": 8.95,
+                "score": 36
             },
             {
-                "name": "Jan her og",
-                "team": "Arsenal",
-                "prediction": 5.07,
-                "score": 3
+                "name": "Salah (V)",
+                "team": "Liverpool",
+                "prediction": 8.57,
+                "score": 13
             },
             {
-                "name": "Virgil van Jan",
+                "name": "Barnes",
                 "team": "Leicester",
-                "prediction": 4.49,
-                "score": 14
+                "prediction": 7.19,
+                "score": 2
             },
             {
-                "name": "Jan Uzai",
-                "team": "Southampton",
-                "prediction": 4.12,
-                "score": 8
+                "name": "Rodriguez",
+                "team": "Everton",
+                "prediction": 6.72,
+                "score": 18
             }
         ],
         "attackers": [
             {
-                "name": "Mer Jan",
+                "name": "Richarlison",
                 "team": "Everton",
-                "prediction": 3.46,
-                "score": 7
+                "prediction": 5.98,
+                "score": 1
             },
             {
-                "name": "Jan Nik",
-                "team": "Leeds",
+                "name": "Calvert-Lewin",
+                "team": "Everton",
                 "prediction": 5.88,
-                "score": 5
+                "score": 6
             },
             {
-                "name": "Bavi Jan",
-                "team": "Aston Villa",
-                "prediction": 5.71,
-                "score": 16
+                "name": "Vardy",
+                "team": "Leicester",
+                "prediction": 5.35,
+                "score": 2
             }
         ]
     },
+
     "5": {
-        "totalPrediction": 52,
-        "totalPoints": 70,
+        "totalPrediction": 69.97,
+        "totalPoints": 81,
         "keeper": {
-            "name": "Jan",
-            "team": "Burnley",
-            "prediction": 3.34,
-            "score": 6
+            "name": "McCarthy",
+            "team": "Southampton",
+            "prediction": 3.85,
+            "score": 1
         },
         "defenders": [
             {
-                "name": "Jan Igjen",
-                "team": "Brighton",
-                "prediction": 4.39,
-                "score": 11
+                "name": "Sánchez",
+                "team": "Tottenham",
+                "prediction": 4.68,
+                "score": -1
             },
             {
-                "name": "Jan En Gang Til",
-                "team": "West Ham",
-                "prediction": 3.95,
-                "score": 2
-            },
-            {
-                "name": "Også Jan",
-                "team": "Crystal Palace",
-                "prediction": 3.80,
+                "name": "Castagne",
+                "team": "Leicester",
+                "prediction": 4.53,
                 "score": 1
+            },
+            {
+                "name": "Digne",
+                "team": "Everton",
+                "prediction": 4.10,
+                "score": 7
             }
         ],
         "midfielders": [
             {
-                "name": "Fortsatt Jan",
-                "team": "Sheffield United",
-                "prediction": 5.16,
-                "score": 6
+                "name": "SON (C)",
+                "team": "Tottenham",
+                "prediction": 7.88,
+                "score": 26
             },
             {
-                "name": "Jan her og",
-                "team": "Wolverhampton",
-                "prediction": 5.07,
+                "name": "Zaha (V)",
+                "team": "Crystal Palace",
+                "prediction": 6.57,
+                "score": 9
+            },
+            {
+                "name": "Grealish",
+                "team": "Aston Villa",
+                "prediction": 6.47,
                 "score": 3
             },
             {
-                "name": "Virgil van Jan",
-                "team": "Fulham",
-                "prediction": 4.49,
-                "score": 14
-            },
-            {
-                "name": "Jan Uzai",
-                "team": "West Bromwich",
-                "prediction": 4.12,
-                "score": 8
+                "name": "Sterling",
+                "team": "Manchester City",
+                "prediction": 6.29,
+                "score": 11
             }
         ],
         "attackers": [
             {
-                "name": "Mer Jan",
-                "team": "Newcastle",
-                "prediction": 3.46,
-                "score": 7
-            },
-            {
-                "name": "Jan Nik",
-                "team": "Liverpool",
-                "prediction": 5.88,
-                "score": 5
-            },
-            {
-                "name": "Bavi Jan",
-                "team": "Manchester City",
-                "prediction": 5.71,
+                "name": "Kane",
+                "team": "Tottenham",
+                "prediction": 6.72,
                 "score": 16
+            },
+            {
+                "name": "Calvert-Lewin",
+                "team": "Everton",
+                "prediction": 6.26,
+                "score": 6
+            },
+            {
+                "name": "Bamford",
+                "team": "Leeds",
+                "prediction": 4.74,
+                "score": 2
             }
         ]
     },
+
     "6": {
-        "totalPrediction": 52,
-        "totalPoints": 70,
+        "totalPrediction": 82.38,
+        "totalPoints": 34,
         "keeper": {
-            "name": "Jan",
-            "team": "Chelsea",
-            "prediction": 3.34,
-            "score": 6
+            "name": "Martinez",
+            "team": "Aston Villa",
+            "prediction": 4.35,
+            "score": 3
         },
         "defenders": [
             {
-                "name": "Jan Igjen",
-                "team": "Brighton",
-                "prediction": 4.39,
-                "score": 11
-            },
-            {
-                "name": "Jan En Gang Til",
-                "team": "West Ham",
-                "prediction": 3.95,
+                "name": "Alexander-Arnold",
+                "team": "Liverpool",
+                "prediction": 6.49,
                 "score": 2
             },
             {
-                "name": "Også Jan",
-                "team": "Crystal Palace",
-                "prediction": 3.80,
+                "name": "Masuaku",
+                "team": "West Ham",
+                "prediction": 4.91,
+                "score": 2
+            },
+            {
+                "name": "Webster",
+                "team": "Brighton",
+                "prediction": 3.96,
                 "score": 1
             }
         ],
         "midfielders": [
             {
-                "name": "Fortsatt Jan",
+                "name": "Salah (C)",
+                "team": "Liverpool",
+                "prediction": 10.39,
+                "score": 4
+            },
+            {
+                "name": "Son (V)",
                 "team": "Tottenham",
-                "prediction": 5.16,
-                "score": 6
+                "prediction": 9.08,
+                "score": 11
             },
             {
-                "name": "Jan her og",
-                "team": "Arsenal",
-                "prediction": 5.07,
-                "score": 3
+                "name": "Grealish",
+                "team": "Aston Villa",
+                "prediction": 9.02,
+                "score": 1
             },
             {
-                "name": "Virgil van Jan",
-                "team": "Leicester",
-                "prediction": 4.49,
-                "score": 14
-            },
-            {
-                "name": "Jan Uzai",
-                "team": "Southampton",
-                "prediction": 4.12,
-                "score": 8
+                "name": "Rodriguez",
+                "team": "Everton",
+                "prediction": 6.77,
+                "score": 2
             }
         ],
         "attackers": [
             {
-                "name": "Mer Jan",
-                "team": "Everton",
-                "prediction": 3.46,
-                "score": 7
-            },
-            {
-                "name": "Jan Nik",
-                "team": "Leeds",
-                "prediction": 5.88,
+                "name": "Kane",
+                "team": "Tottenham",
+                "prediction": 6.80,
                 "score": 5
             },
             {
-                "name": "Bavi Jan",
+                "name": "Calvert-Lewin",
+                "team": "Everton",
+                "prediction": 5.28,
+                "score": 1
+            },
+            {
+                "name": "Watkins",
                 "team": "Aston Villa",
-                "prediction": 5.71,
-                "score": 16
+                "prediction": 4.94,
+                "score": 2
             }
         ]
     },
+
     "7": {
-        "totalPrediction": 52,
-        "totalPoints": 70,
+        "totalPrediction": 55,
+        "totalPoints": 55,
         "keeper": {
-            "name": "Jan",
-            "team": "Fulham",
-            "prediction": 3.34,
-            "score": 6
+            "name": "Schmeichel",
+            "team": "Leicester",
+            "prediction": 3.97,
+            "score": 3
         },
         "defenders": [
             {
-                "name": "Jan Igjen",
-                "team": "Manchester United",
-                "prediction": 4.39,
-                "score": 11
-            },
-            {
-                "name": "Jan En Gang Til",
-                "team": "Manchester City",
-                "prediction": 3.95,
-                "score": 2
-            },
-            {
-                "name": "Også Jan",
-                "team": "Chelsea",
-                "prediction": 3.80,
-                "score": 1
-            }
-        ],
-        "midfielders": [
-            {
-                "name": "Fortsatt Jan",
-                "team": "Sheffield United",
-                "prediction": 5.16,
-                "score": 6
-            },
-            {
-                "name": "Jan her og",
-                "team": "Wolverhampton",
-                "prediction": 5.07,
-                "score": 3
-            },
-            {
-                "name": "Virgil van Jan",
-                "team": "Fulham",
-                "prediction": 4.49,
-                "score": 14
-            },
-            {
-                "name": "Jan Uzai",
-                "team": "West Bromwich",
-                "prediction": 4.12,
-                "score": 8
-            }
-        ],
-        "attackers": [
-            {
-                "name": "Mer Jan",
-                "team": "Newcastle",
-                "prediction": 3.46,
-                "score": 7
-            },
-            {
-                "name": "Jan Nik",
+                "name": "Alexander-Arnold",
                 "team": "Liverpool",
-                "prediction": 5.88,
-                "score": 5
-            },
-            {
-                "name": "Bavi Jan",
-                "team": "Manchester City",
-                "prediction": 5.71,
-                "score": 16
-            }
-        ]
-    },
-    "8": {
-        "totalPrediction": 52,
-        "totalPoints": 70,
-        "keeper": {
-            "name": "Jan",
-            "team": "Liverpool",
-            "prediction": 3.34,
-            "score": 6
-        },
-        "defenders": [
-            {
-                "name": "Jan Igjen",
-                "team": "Manchester United",
-                "prediction": 4.39,
-                "score": 11
-            },
-            {
-                "name": "Jan En Gang Til",
-                "team": "Manchester City",
-                "prediction": 3.95,
+                "prediction": 6.39,
                 "score": 2
             },
             {
-                "name": "Også Jan",
+                "name": "Chilwell",
                 "team": "Chelsea",
-                "prediction": 3.80,
-                "score": 1
-            }
-        ],
-        "midfielders": [
-            {
-                "name": "Fortsatt Jan",
-                "team": "Sheffield United",
-                "prediction": 5.16,
+                "prediction": 4.61,
                 "score": 6
             },
             {
-                "name": "Jan her og",
-                "team": "Wolverhampton",
-                "prediction": 5.07,
-                "score": 3
-            },
-            {
-                "name": "Virgil van Jan",
-                "team": "Fulham",
-                "prediction": 4.49,
-                "score": 14
-            },
-            {
-                "name": "Jan Uzai",
-                "team": "West Bromwich",
-                "prediction": 4.12,
-                "score": 8
-            }
-        ],
-        "attackers": [
-            {
-                "name": "Mer Jan",
-                "team": "Everton",
-                "prediction": 3.46,
-                "score": 7
-            },
-            {
-                "name": "Jan Nik",
-                "team": "Leeds",
-                "prediction": 5.88,
-                "score": 5
-            },
-            {
-                "name": "Bavi Jan",
-                "team": "Aston Villa",
-                "prediction": 5.71,
-                "score": 16
-            }
-        ]
-    },
-    "9": {
-        "totalPrediction": 52,
-        "totalPoints": 70,
-        "keeper": {
-            "name": "Jan",
-            "team": "Machester United",
-            "prediction": 3.34,
-            "score": 6
-        },
-        "defenders": [
-            {
-                "name": "Jan Igjen",
-                "team": "Brighton",
-                "prediction": 4.39,
-                "score": 11
-            },
-            {
-                "name": "Jan En Gang Til",
-                "team": "West Ham",
-                "prediction": 3.95,
-                "score": 2
-            },
-            {
-                "name": "Også Jan",
-                "team": "Crystal Palace",
-                "prediction": 3.80,
-                "score": 1
-            }
-        ],
-        "midfielders": [
-            {
-                "name": "Fortsatt Jan",
+                "name": "Davies",
                 "team": "Tottenham",
-                "prediction": 5.16,
-                "score": 6
+                "prediction": 4.46,
+                "score": 1
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Son (C)",
+                "team": "Tottenham",
+                "prediction": 11.56,
+                "score": 4
             },
             {
-                "name": "Jan her og",
-                "team": "Arsenal",
-                "prediction": 5.07,
-                "score": 3
-            },
-            {
-                "name": "Virgil van Jan",
-                "team": "Leicester",
-                "prediction": 4.49,
-                "score": 14
-            },
-            {
-                "name": "Jan Uzai",
-                "team": "Southampton",
-                "prediction": 4.12,
+                "name": "Salah (V)",
+                "team": "Liverpool",
+                "prediction": 9.56,
                 "score": 8
+            },
+            {
+                "name": "Grealish",
+                "team": "Aston Villa",
+                "prediction": 6.56,
+                "score": 15
+            },
+            {
+                "name": "Zaha",
+                "team": "Crystal Palace",
+                "prediction": 6.35,
+                "score": 1
             }
         ],
         "attackers": [
             {
-                "name": "Mer Jan",
-                "team": "Newcastle",
-                "prediction": 3.46,
-                "score": 7
+                "name": "Kane",
+                "team": "Tottenham",
+                "prediction": 6.43,
+                "score": 6
             },
             {
-                "name": "Jan Nik",
+                "name": "Bamford",
+                "team": "Leeds",
+                "prediction": 5.30,
+                "score": 2
+            },
+            {
+                "name": "Watkins",
+                "team": "Aston Villa",
+                "prediction": 4.75,
+                "score": 7
+            }
+        ]
+    },
+
+    "8": {
+        "totalPrediction": 79.13,
+        "totalPoints": 63,
+        "keeper": {
+            "name": "McCarthy",
+            "team": "Southampton",
+            "prediction": 4.05,
+            "score": 6
+        },
+        "defenders": [
+            {
+                "name": "Chilwell",
+                "team": "Chelsea",
+                "prediction": 5.51,
+                "score": 8
+            },
+            {
+                "name": "James",
+                "team": "Chelsea",
+                "prediction": 5.09,
+                "score": 2
+            },
+            {
+                "name": "Justin",
+                "team": "Leicester",
+                "prediction": 4.92,
+                "score": 6
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Zaha (C)",
+                "team": "Crystal Palace",
+                "prediction": 9.22,
+                "score": 10
+            },
+            {
+                "name": "Son (V)",
+                "team": "Tottenham",
+                "prediction": 9.08,
+                "score": 3
+            },
+            {
+                "name": "Salah",
                 "team": "Liverpool",
-                "prediction": 5.88,
+                "prediction": 7.58,
+                "score": 3
+            },
+            {
+                "name": "Grealish",
+                "team": "Aston Villa",
+                "prediction": 6.38,
+                "score": 6
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Calvert-Lewin",
+                "team": "Everton",
+                "prediction": 6.74,
                 "score": 5
             },
             {
-                "name": "Bavi Jan",
-                "team": "Manchester City",
-                "prediction": 5.71,
-                "score": 16
+                "name": "Werner",
+                "team": "Chelsea",
+                "prediction": 6.30,
+                "score": 7
+            },
+            {
+                "name": "Adams",
+                "team": "Southampton",
+                "prediction": 5.04,
+                "score": 7
+            }
+        ]
+    },
+
+    "9": {
+        "totalPrediction": 70.73,
+        "totalPoints": 57,
+        "keeper": {
+            "name": "Martinez",
+            "team": "Aston Villa",
+            "prediction": 3.94,
+            "score": 1
+        },
+        "defenders": [
+            {
+                "name": "Chilwell",
+                "team": "Chelsea",
+                "prediction": 5.12,
+                "score": 7
+            },
+            {
+                "name": "James",
+                "team": "Chelsea",
+                "prediction": 5.00,
+                "score": 8
+            },
+            {
+                "name": "Coufal",
+                "team": "West Ham",
+                "prediction": 4.95,
+                "score": 6
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Grealish (C)",
+                "team": "Aston Villa",
+                "prediction": 8.03,
+                "score": 2
+            },
+            {
+                "name": "Zaha (V)",
+                "team": "Crystal Palace",
+                "prediction": 7.66,
+                "score": "Bur(A)"
+            },
+            {
+                "name": "Son",
+                "team": "Tottenham",
+                "prediction": 6.17,
+                "score": 10
+            },
+            {
+                "name": "Ziyech",
+                "team": "Chelsea",
+                "prediction": 5.44,
+                "score": 3
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Kane",
+                "team": "Tottenham",
+                "prediction": 6.13,
+                "score": 5
+            },
+            {
+                "name": "Calvert-Lewin",
+                "team": "Everton",
+                "prediction": 5.18,
+                "score": 13
+            },
+            {
+                "name": "Vardy",
+                "team": "leicester",
+                "prediction": 5.08,
+                "score": 2
             }
         ]
     }
