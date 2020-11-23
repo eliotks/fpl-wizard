@@ -3,9 +3,9 @@ import { IProps } from './interfaces';
 
 function KeeperShirt(props: IProps) {
 
-    // const { colors } = props;
+    const { colors } = props;
 
-    const colors = ["#0065A0", "#383838", "#383838", "#005282"]
+    // const colors = ["#0065A0", "#383838", "#383838", "#005282"]
   
     const color1 = colors[0]; // Hoveddel
     const color2 = colors[1]; // Krage

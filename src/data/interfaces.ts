@@ -4,3 +4,12 @@ export interface IPlayer {
     prediction: number;
     score: number;
 }
+
+export interface IGameWeek {
+    totalPrediction: number,
+    totalPoints: number,
+    keeper: IPlayer,
+    defenders: IPlayer[],
+    midfielders: IPlayer[],
+    attackers: IPlayer[],
+}

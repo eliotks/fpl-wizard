@@ -4,424 +4,455 @@
         "totalPoints": 70,
         "keeper": {
             "name": "Jan",
-            "team": "Banan",
+            "team": "Liverpool",
             "prediction": 3.34,
             "score": 6
         },
-        "defender1": {
-            "name": "Jan Igjen",
-            "team": "Pære",
-            "prediction": 4.39,
-            "score": 11
-        },
-        "defender2": {
-            "name": "Jan En Gang Til",
-            "team": "Kjempemango",
-            "prediction": 3.95,
-            "score": 2
-        },
-        "defender3": {
-            "name": "Også Jan",
-            "team": "Kiwi og mer kiwi",
-            "prediction": 3.80,
-            "score": 1
-        },
-        "defender4": {
-            "name": "Mer Jan",
-            "team": "Surt eple",
-            "prediction": 3.46,
-            "score": 7
-        },
-        "midfielder1": {
-            "name": "Fortsatt Jan",
-            "team": "Troika FC",
-            "prediction": 5.16,
-            "score": 6
-        },
-        "midfielder2": {
-            "name": "Jan her og",
-            "team": "Bounty Hunter",
-            "prediction": 5.07,
-            "score": 3
-        },
-        "midfielder3": {
-            "name": "Virgil van Jan",
-            "team": "Snickers og Twist",
-            "prediction": 4.49,
-            "score": 14
-        },
-        "midfielder4": {
-            "name": "Jan Uzai",
-            "team": "Quick Hunch",
-            "prediction": 4.12,
-            "score": 8
-        },
-        "attacker1": {
-            "name": "Jan Nik",
-            "team": "Red Bull Strikers",
-            "prediction": 5.88,
-            "score": 5
-        },
-        "attacker2": {
-            "name": "Bavi Jan",
-            "team": "Red Tull",
-            "prediction": 5.71,
-            "score": 16
-        }
+        "defenders": [
+            {
+                "name": "Jan Igjen",
+                "team": "Manchester United",
+                "prediction": 4.39,
+                "score": 11
+            },
+            {
+                "name": "Jan En Gang Til",
+                "team": "Manchester City",
+                "prediction": 3.95,
+                "score": 2
+            },
+            {
+                "name": "Også Jan",
+                "team": "Chelsea",
+                "prediction": 3.80,
+                "score": 1
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Fortsatt Jan",
+                "team": "Tottenham",
+                "prediction": 5.16,
+                "score": 6
+            },
+            {
+                "name": "Jan her og",
+                "team": "Arsenal",
+                "prediction": 5.07,
+                "score": 3
+            },
+            {
+                "name": "Virgil van Jan",
+                "team": "Leicester",
+                "prediction": 4.49,
+                "score": 14
+            },
+            {
+                "name": "Jan Uzai",
+                "team": "Southampton",
+                "prediction": 4.12,
+                "score": 8
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Mer Jan",
+                "team": "Everton",
+                "prediction": 3.46,
+                "score": 7
+            },
+            {
+                "name": "Jan Nik",
+                "team": "Leeds",
+                "prediction": 5.88,
+                "score": 5
+            },
+            {
+                "name": "Bavi Jan",
+                "team": "Aston Villa",
+                "prediction": 5.71,
+                "score": 16
+            }
+        ]
     },
-
     "5": {
         "totalPrediction": 52,
         "totalPoints": 70,
         "keeper": {
             "name": "Jan",
-            "team": "Banan",
+            "team": "Burnley",
             "prediction": 3.34,
             "score": 6
         },
-        "defender1": {
-            "name": "Jan Igjen",
-            "team": "Pære",
-            "prediction": 4.39,
-            "score": 11
-        },
-        "defender2": {
-            "name": "Jan En Gang Til",
-            "team": "Kjempemango",
-            "prediction": 3.95,
-            "score": 2
-        },
-        "defender3": {
-            "name": "Også Jan",
-            "team": "Kiwi og mer kiwi",
-            "prediction": 3.80,
-            "score": 1
-        },
-        "defender4": {
-            "name": "Mer Jan",
-            "team": "Surt eple",
-            "prediction": 3.46,
-            "score": 7
-        },
-        "midfielder1": {
-            "name": "Fortsatt Jan",
-            "team": "Troika FC",
-            "prediction": 5.16,
-            "score": 6
-        },
-        "midfielder2": {
-            "name": "Jan her og",
-            "team": "Bounty Hunter",
-            "prediction": 5.07,
-            "score": 3
-        },
-        "midfielder3": {
-            "name": "Virgil van Jan",
-            "team": "Snickers og Twist",
-            "prediction": 4.49,
-            "score": 14
-        },
-        "midfielder4": {
-            "name": "Jan Uzai",
-            "team": "Quick Hunch",
-            "prediction": 4.12,
-            "score": 8
-        },
-        "attacker1": {
-            "name": "Jan Nik",
-            "team": "Red Bull Strikers",
-            "prediction": 5.88,
-            "score": 5
-        },
-        "attacker2": {
-            "name": "Bavi Jan",
-            "team": "Red Tull",
-            "prediction": 5.71,
-            "score": 16
-        }
+        "defenders": [
+            {
+                "name": "Jan Igjen",
+                "team": "Brighton",
+                "prediction": 4.39,
+                "score": 11
+            },
+            {
+                "name": "Jan En Gang Til",
+                "team": "West Ham",
+                "prediction": 3.95,
+                "score": 2
+            },
+            {
+                "name": "Også Jan",
+                "team": "Crystal Palace",
+                "prediction": 3.80,
+                "score": 1
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Fortsatt Jan",
+                "team": "Sheffield United",
+                "prediction": 5.16,
+                "score": 6
+            },
+            {
+                "name": "Jan her og",
+                "team": "Wolverhampton",
+                "prediction": 5.07,
+                "score": 3
+            },
+            {
+                "name": "Virgil van Jan",
+                "team": "Fulham",
+                "prediction": 4.49,
+                "score": 14
+            },
+            {
+                "name": "Jan Uzai",
+                "team": "West Bromwich",
+                "prediction": 4.12,
+                "score": 8
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Mer Jan",
+                "team": "Newcastle",
+                "prediction": 3.46,
+                "score": 7
+            },
+            {
+                "name": "Jan Nik",
+                "team": "Liverpool",
+                "prediction": 5.88,
+                "score": 5
+            },
+            {
+                "name": "Bavi Jan",
+                "team": "Manchester City",
+                "prediction": 5.71,
+                "score": 16
+            }
+        ]
     },
-
     "6": {
         "totalPrediction": 52,
         "totalPoints": 70,
         "keeper": {
             "name": "Jan",
-            "team": "Banan",
+            "team": "Chelsea",
             "prediction": 3.34,
             "score": 6
         },
-        "defender1": {
-            "name": "Jan Igjen",
-            "team": "Pære",
-            "prediction": 4.39,
-            "score": 11
-        },
-        "defender2": {
-            "name": "Jan En Gang Til",
-            "team": "Kjempemango",
-            "prediction": 3.95,
-            "score": 2
-        },
-        "defender3": {
-            "name": "Også Jan",
-            "team": "Kiwi og mer kiwi",
-            "prediction": 3.80,
-            "score": 1
-        },
-        "defender4": {
-            "name": "Mer Jan",
-            "team": "Surt eple",
-            "prediction": 3.46,
-            "score": 7
-        },
-        "midfielder1": {
-            "name": "Fortsatt Jan",
-            "team": "Troika FC",
-            "prediction": 5.16,
-            "score": 6
-        },
-        "midfielder2": {
-            "name": "Jan her og",
-            "team": "Bounty Hunter",
-            "prediction": 5.07,
-            "score": 3
-        },
-        "midfielder3": {
-            "name": "Virgil van Jan",
-            "team": "Snickers og Twist",
-            "prediction": 4.49,
-            "score": 14
-        },
-        "midfielder4": {
-            "name": "Jan Uzai",
-            "team": "Quick Hunch",
-            "prediction": 4.12,
-            "score": 8
-        },
-        "attacker1": {
-            "name": "Jan Nik",
-            "team": "Red Bull Strikers",
-            "prediction": 5.88,
-            "score": 5
-        },
-        "attacker2": {
-            "name": "Bavi Jan",
-            "team": "Red Tull",
-            "prediction": 5.71,
-            "score": 16
-        }
+        "defenders": [
+            {
+                "name": "Jan Igjen",
+                "team": "Brighton",
+                "prediction": 4.39,
+                "score": 11
+            },
+            {
+                "name": "Jan En Gang Til",
+                "team": "West Ham",
+                "prediction": 3.95,
+                "score": 2
+            },
+            {
+                "name": "Også Jan",
+                "team": "Crystal Palace",
+                "prediction": 3.80,
+                "score": 1
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Fortsatt Jan",
+                "team": "Tottenham",
+                "prediction": 5.16,
+                "score": 6
+            },
+            {
+                "name": "Jan her og",
+                "team": "Arsenal",
+                "prediction": 5.07,
+                "score": 3
+            },
+            {
+                "name": "Virgil van Jan",
+                "team": "Leicester",
+                "prediction": 4.49,
+                "score": 14
+            },
+            {
+                "name": "Jan Uzai",
+                "team": "Southampton",
+                "prediction": 4.12,
+                "score": 8
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Mer Jan",
+                "team": "Everton",
+                "prediction": 3.46,
+                "score": 7
+            },
+            {
+                "name": "Jan Nik",
+                "team": "Leeds",
+                "prediction": 5.88,
+                "score": 5
+            },
+            {
+                "name": "Bavi Jan",
+                "team": "Aston Villa",
+                "prediction": 5.71,
+                "score": 16
+            }
+        ]
     },
-
     "7": {
         "totalPrediction": 52,
         "totalPoints": 70,
         "keeper": {
             "name": "Jan",
-            "team": "Banan",
+            "team": "Fulham",
             "prediction": 3.34,
             "score": 6
         },
-        "defender1": {
-            "name": "Jan Igjen",
-            "team": "Pære",
-            "prediction": 4.39,
-            "score": 11
-        },
-        "defender2": {
-            "name": "Jan En Gang Til",
-            "team": "Kjempemango",
-            "prediction": 3.95,
-            "score": 2
-        },
-        "defender3": {
-            "name": "Også Jan",
-            "team": "Kiwi og mer kiwi",
-            "prediction": 3.80,
-            "score": 1
-        },
-        "defender4": {
-            "name": "Mer Jan",
-            "team": "Surt eple",
-            "prediction": 3.46,
-            "score": 7
-        },
-        "midfielder1": {
-            "name": "Fortsatt Jan",
-            "team": "Troika FC",
-            "prediction": 5.16,
-            "score": 6
-        },
-        "midfielder2": {
-            "name": "Jan her og",
-            "team": "Bounty Hunter",
-            "prediction": 5.07,
-            "score": 3
-        },
-        "midfielder3": {
-            "name": "Virgil van Jan",
-            "team": "Snickers og Twist",
-            "prediction": 4.49,
-            "score": 14
-        },
-        "midfielder4": {
-            "name": "Jan Uzai",
-            "team": "Quick Hunch",
-            "prediction": 4.12,
-            "score": 8
-        },
-        "attacker1": {
-            "name": "Jan Nik",
-            "team": "Red Bull Strikers",
-            "prediction": 5.88,
-            "score": 5
-        },
-        "attacker2": {
-            "name": "Bavi Jan",
-            "team": "Red Tull",
-            "prediction": 5.71,
-            "score": 16
-        }
+        "defenders": [
+            {
+                "name": "Jan Igjen",
+                "team": "Manchester United",
+                "prediction": 4.39,
+                "score": 11
+            },
+            {
+                "name": "Jan En Gang Til",
+                "team": "Manchester City",
+                "prediction": 3.95,
+                "score": 2
+            },
+            {
+                "name": "Også Jan",
+                "team": "Chelsea",
+                "prediction": 3.80,
+                "score": 1
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Fortsatt Jan",
+                "team": "Sheffield United",
+                "prediction": 5.16,
+                "score": 6
+            },
+            {
+                "name": "Jan her og",
+                "team": "Wolverhampton",
+                "prediction": 5.07,
+                "score": 3
+            },
+            {
+                "name": "Virgil van Jan",
+                "team": "Fulham",
+                "prediction": 4.49,
+                "score": 14
+            },
+            {
+                "name": "Jan Uzai",
+                "team": "West Bromwich",
+                "prediction": 4.12,
+                "score": 8
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Mer Jan",
+                "team": "Newcastle",
+                "prediction": 3.46,
+                "score": 7
+            },
+            {
+                "name": "Jan Nik",
+                "team": "Liverpool",
+                "prediction": 5.88,
+                "score": 5
+            },
+            {
+                "name": "Bavi Jan",
+                "team": "Manchester City",
+                "prediction": 5.71,
+                "score": 16
+            }
+        ]
     },
-
     "8": {
         "totalPrediction": 52,
         "totalPoints": 70,
         "keeper": {
             "name": "Jan",
-            "team": "Banan",
+            "team": "Liverpool",
             "prediction": 3.34,
             "score": 6
         },
-        "defender1": {
-            "name": "Jan Igjen",
-            "team": "Pære",
-            "prediction": 4.39,
-            "score": 11
-        },
-        "defender2": {
-            "name": "Jan En Gang Til",
-            "team": "Kjempemango",
-            "prediction": 3.95,
-            "score": 2
-        },
-        "defender3": {
-            "name": "Også Jan",
-            "team": "Kiwi og mer kiwi",
-            "prediction": 3.80,
-            "score": 1
-        },
-        "defender4": {
-            "name": "Mer Jan",
-            "team": "Surt eple",
-            "prediction": 3.46,
-            "score": 7
-        },
-        "midfielder1": {
-            "name": "Fortsatt Jan",
-            "team": "Troika FC",
-            "prediction": 5.16,
-            "score": 6
-        },
-        "midfielder2": {
-            "name": "Jan her og",
-            "team": "Bounty Hunter",
-            "prediction": 5.07,
-            "score": 3
-        },
-        "midfielder3": {
-            "name": "Virgil van Jan",
-            "team": "Snickers og Twist",
-            "prediction": 4.49,
-            "score": 14
-        },
-        "midfielder4": {
-            "name": "Jan Uzai",
-            "team": "Quick Hunch",
-            "prediction": 4.12,
-            "score": 8
-        },
-        "attacker1": {
-            "name": "Jan Nik",
-            "team": "Red Bull Strikers",
-            "prediction": 5.88,
-            "score": 5
-        },
-        "attacker2": {
-            "name": "Bavi Jan",
-            "team": "Red Tull",
-            "prediction": 5.71,
-            "score": 16
-        }
+        "defenders": [
+            {
+                "name": "Jan Igjen",
+                "team": "Manchester United",
+                "prediction": 4.39,
+                "score": 11
+            },
+            {
+                "name": "Jan En Gang Til",
+                "team": "Manchester City",
+                "prediction": 3.95,
+                "score": 2
+            },
+            {
+                "name": "Også Jan",
+                "team": "Chelsea",
+                "prediction": 3.80,
+                "score": 1
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Fortsatt Jan",
+                "team": "Sheffield United",
+                "prediction": 5.16,
+                "score": 6
+            },
+            {
+                "name": "Jan her og",
+                "team": "Wolverhampton",
+                "prediction": 5.07,
+                "score": 3
+            },
+            {
+                "name": "Virgil van Jan",
+                "team": "Fulham",
+                "prediction": 4.49,
+                "score": 14
+            },
+            {
+                "name": "Jan Uzai",
+                "team": "West Bromwich",
+                "prediction": 4.12,
+                "score": 8
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Mer Jan",
+                "team": "Everton",
+                "prediction": 3.46,
+                "score": 7
+            },
+            {
+                "name": "Jan Nik",
+                "team": "Leeds",
+                "prediction": 5.88,
+                "score": 5
+            },
+            {
+                "name": "Bavi Jan",
+                "team": "Aston Villa",
+                "prediction": 5.71,
+                "score": 16
+            }
+        ]
     },
-
     "9": {
         "totalPrediction": 52,
         "totalPoints": 70,
         "keeper": {
             "name": "Jan",
-            "team": "Banan",
+            "team": "Machester United",
             "prediction": 3.34,
             "score": 6
         },
-        "defender1": {
-            "name": "Jan Igjen",
-            "team": "Pære",
-            "prediction": 4.39,
-            "score": 11
-        },
-        "defender2": {
-            "name": "Jan En Gang Til",
-            "team": "Kjempemango",
-            "prediction": 3.95,
-            "score": 2
-        },
-        "defender3": {
-            "name": "Også Jan",
-            "team": "Kiwi og mer kiwi",
-            "prediction": 3.80,
-            "score": 1
-        },
-        "defender4": {
-            "name": "Mer Jan",
-            "team": "Surt eple",
-            "prediction": 3.46,
-            "score": 7
-        },
-        "midfielder1": {
-            "name": "Fortsatt Jan",
-            "team": "Troika FC",
-            "prediction": 5.16,
-            "score": 6
-        },
-        "midfielder2": {
-            "name": "Jan her og",
-            "team": "Bounty Hunter",
-            "prediction": 5.07,
-            "score": 3
-        },
-        "midfielder3": {
-            "name": "Virgil van Jan",
-            "team": "Snickers og Twist",
-            "prediction": 4.49,
-            "score": 14
-        },
-        "midfielder4": {
-            "name": "Jan Uzai",
-            "team": "Quick Hunch",
-            "prediction": 4.12,
-            "score": 8
-        },
-        "attacker1": {
-            "name": "Jan Nik",
-            "team": "Red Bull Strikers",
-            "prediction": 5.88,
-            "score": 5
-        },
-        "attacker2": {
-            "name": "Bavi Jan",
-            "team": "Red Tull",
-            "prediction": 5.71,
-            "score": 16
-        }
+        "defenders": [
+            {
+                "name": "Jan Igjen",
+                "team": "Brighton",
+                "prediction": 4.39,
+                "score": 11
+            },
+            {
+                "name": "Jan En Gang Til",
+                "team": "West Ham",
+                "prediction": 3.95,
+                "score": 2
+            },
+            {
+                "name": "Også Jan",
+                "team": "Crystal Palace",
+                "prediction": 3.80,
+                "score": 1
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Fortsatt Jan",
+                "team": "Tottenham",
+                "prediction": 5.16,
+                "score": 6
+            },
+            {
+                "name": "Jan her og",
+                "team": "Arsenal",
+                "prediction": 5.07,
+                "score": 3
+            },
+            {
+                "name": "Virgil van Jan",
+                "team": "Leicester",
+                "prediction": 4.49,
+                "score": 14
+            },
+            {
+                "name": "Jan Uzai",
+                "team": "Southampton",
+                "prediction": 4.12,
+                "score": 8
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Mer Jan",
+                "team": "Newcastle",
+                "prediction": 3.46,
+                "score": 7
+            },
+            {
+                "name": "Jan Nik",
+                "team": "Liverpool",
+                "prediction": 5.88,
+                "score": 5
+            },
+            {
+                "name": "Bavi Jan",
+                "team": "Manchester City",
+                "prediction": 5.71,
+                "score": 16
+            }
+        ]
     }
-}    
+}
