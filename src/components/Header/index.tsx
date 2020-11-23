@@ -9,8 +9,8 @@ import Grid from '@material-ui/core/Grid';
 const styles = () => 
     createStyles({
     root: {
-        backgroundColor: "#FFFFFF",
-        position: "absolute",
+        backgroundColor: "#ffffff",
+        position: "fixed",
         padding: 24,
         paddingTop: 28,
         boxShadow: "0px 0px 10px 1px #162236",

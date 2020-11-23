@@ -2,6 +2,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import { WithStyles } from "@material-ui/styles"
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Main from './views/Main';
 import About from './views/About';
 
@@ -34,6 +35,9 @@ const styles = {
     backgroundSize: "100%",
     backgroundRepeat: "repeat",
   },
+  semiRoot: {
+    backdropFilter: "blur(3px)",
+  }
 };
 
 
@@ -43,8 +47,9 @@ const App: React.FunctionComponent<IProps> = props => {
   const { classes } = props;
   return (
     <Router>
+      <Header/>
       <div className={classes.root}>
-          <Header></Header>
+        <div className={classes.semiRoot}>
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
@@ -55,6 +60,8 @@ const App: React.FunctionComponent<IProps> = props => {
                 <Main/>
             </Route>
           </Switch>
+          <Footer/>
+        </div>
       </div>
     </Router>
   );
