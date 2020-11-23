@@ -11,11 +11,14 @@ import {
   Route,
 } from "react-router-dom";
 
+import Image from './pictures/alex-KEEpi-SOM_s-unsplash.jpg'; // Import using relative path
 
 const styles = {
   root: {
-    background: "#34507d",
+    background:  `url(${Image})`,
+    //background: "#34507d",
     minHeight: '100vh',
+    backgroundSize: "cover"
   },
 };
 
@@ -27,7 +30,7 @@ const App: React.FunctionComponent<IProps> = props => {
   return (
     <Router>
       <div className={classes.root}>
-        <Header></Header>
+          <Header></Header>
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
