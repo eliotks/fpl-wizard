@@ -26,7 +26,7 @@ const PlayerText = (props: IProps) => {
   const { classes, name, team, prediction, score } = props
   return (
     <Card className={classes.root}>
-      <Typography align="center" style={{ fontSize: 8, fontWeight: "bold" }}>{team}</Typography>
+      <Typography align="center" style={{ fontSize: 8, fontWeight: "bold" }}>{name}</Typography>
       <Grid container justify="space-around">
         <Grid>
         <Typography align="center" style={{ fontSize: 8, fontWeight: "bold" }}>{"Pred: " + prediction}</Typography>

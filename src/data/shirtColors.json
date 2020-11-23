@@ -28,7 +28,7 @@
         "keeperColors": ["#B3B3B3", "#0CE8C3", "#0CE8C3", "#A7A7A7"]
     },
     "Southampton": {
-        "colors": ["#FF2020", "#FF2020", "#FF2020", "#0E0000", "white", "white", "#0E0000", "none"],
+        "colors": ["#FF2020", "#FF2020", "#FF2020", "#FF2020", "white", "white", "#0E0000", "none"],
         "keeperColors": ["#2BA8D1", "#5F5F5F", "#5F5F5F", "#A7A7A7"]
     },
     "Everton": {
