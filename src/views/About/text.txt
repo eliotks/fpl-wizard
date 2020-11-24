@@ -1,0 +1,29 @@
+What is this?
+The "dream teams" presented are the results of a machine learning project using a combination 
+of a Deep Neural Network and the Simplex algorithm to predict points scored for Fantasy Premier 
+League (FPL) players. All teams are predicted on unseen data and the true points scored are added 
+after each gameweek. 
+
+Models
+The model differentiates on positions and is trained on performances metrics like goals, assists, 
+bonus points, fixture difficulty and goals conceded from all FPL from the seasons of 2016/2017 to 
+2019/2020 to predict the points scored in the present season. 
+
+Finding the best team
+The Neural Network predicts scores for each player for the coming gameweek based on historical 
+statistics. The Simplex algorithm is used to produce the optimal team based on the same constraints 
+as in the game. The maximum total cost of the team is set to be 83 as this account for the cheapest 
+possible bench. 
+
+How well does the team perform?
+For gameweek 4 to 9 the predicted team comfortably outperforms the official FPL scout selection 
+and averages a score of X which would see it performing among the top 2% players of the game. 
+Note that the team has unlimited transfers for each round so the results are not absolutely 
+comparable to real players, but are still impressive. 
+
+Future work
+We plan on continuously updating the models with more statistics like xG, odds and chance of 
+playing as well as developing a more sophisticated model capable of making strategic decisions 
+on transfers, wildcards and chips.
+
+See this github link for code.

@@ -21,7 +21,7 @@ createStyles({
         fontStyle: 'normal',
         fontSize: 60,
         fontWeight: 700,
-        color: "#FFFFFF",
+        color: "#030D17",
     },
     subHeading: {
         fontFamily: "Nunito, sans-serif",

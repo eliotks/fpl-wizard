@@ -1,5 +1,5 @@
-import shirtColors from '../../data/shirtColors.json';
-import { IProps as IShirtProps } from '../PlayerShirts/interfaces';
+import shirtColors from '../data/shirtColors.json';
+import { IProps as IShirtProps } from '../components/PlayerShirts/interfaces';
 
 // checks if possibleKey is a key of json obj. Needed for typescript.
 export function isKeyof<T extends object>(obj: T, possibleKey: keyof any): possibleKey is keyof T {

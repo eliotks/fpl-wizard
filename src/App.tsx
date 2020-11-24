@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './views/Main';
 import About from './views/About';
+import ScrollToTop from './components/ScrollToTop';
 
 import {
   BrowserRouter as Router,
@@ -47,6 +48,7 @@ const App: React.FunctionComponent<IProps> = props => {
   const { classes } = props;
   return (
     <Router>
+      <ScrollToTop/>
       <Header/>
       <div className={classes.root}>
         <div className={classes.semiRoot}>
