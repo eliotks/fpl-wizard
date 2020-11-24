@@ -29,7 +29,7 @@ import Image14 from './pictures/plain1.jpg';
 
 const styles = {
   root: {
-    backgroundImage:  `url(${Image7})`,
+    backgroundImage:  `url(${Image9})`,
     //background: "#34507d",
     minHeight: '100vh',
     backgroundSize: "100%",
