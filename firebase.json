@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "fpl-wizard",
-    "public": "build",
+    "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }
