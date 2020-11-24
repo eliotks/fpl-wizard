@@ -30,12 +30,26 @@ createStyles({
         fontWeight: 400,
         color: "#FFFFFF",
     },
-    content: {
+    contentData: {
         backgroundColor: "rgba(13, 20, 43, 0.74)",
         backdropFilter: "blur(20px) opacity(0.8)",
-        minHeight: "400px",
+        minHeight: "300px",
         backgroundSize: "100%",
-        padding: "100px 180px 60px 180px",
+        padding: "60px 180px 30px 180px",
+    },
+    contentModels: {
+        backgroundColor: "rgba(17, 29, 35, 0.74)",
+        backdropFilter: "blur(20px) opacity(0.8)",
+        minHeight: "300px",
+        backgroundSize: "100%",
+        padding: "40px 180px 30px 180px",
+    },
+    contentTeamOptimizer: {
+        backgroundColor: "rgba(30, 20, 50, 0.74)",
+        backdropFilter: "blur(20px) opacity(0.8)",
+        minHeight: "300px",
+        backgroundSize: "100%",
+        padding: "40px 180px 30px 180px",
     },
     text: {
         fontFamily: "Nunito, sans-serif",
@@ -43,7 +57,7 @@ createStyles({
         fontSize: 18,
         fontWeight: 400,
         color: "#FFFFFF",
-        marginBottom: 60,
+        marginBottom: 10,
     },
 });
 
@@ -58,13 +72,15 @@ const About: React.FunctionComponent<IProps> = props =>  {
                 <Container maxWidth={false} className={classes.header}> 
                     <Typography className={classes.heading} align="center">HOW IT WORKS</Typography> 
                 </Container>
-                <Container maxWidth={false} className={classes.content}>
+                <Container maxWidth={false} className={classes.contentData}>
                     <Typography className={classes.subHeading}>Data</Typography> 
                     <Typography className={classes.text}>{dataText}</Typography> 
-
+                </Container>
+                <Container maxWidth={false} className={classes.contentModels}>
                     <Typography className={classes.subHeading}>Models</Typography> 
                     <Typography className={classes.text}>{modelsText}</Typography>
-
+                </Container>
+                <Container maxWidth={false} className={classes.contentTeamOptimizer}>
                     <Typography className={classes.subHeading}>Finding the best team</Typography> 
                     <Typography className={classes.text}>{teamOptimizerText}</Typography> 
                 </Container>
