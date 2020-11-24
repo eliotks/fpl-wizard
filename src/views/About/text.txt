@@ -27,3 +27,5 @@ playing as well as developing a more sophisticated model capable of making strat
 on transfers, wildcards and chips.
 
 See this github link for code.
+
+:-)
