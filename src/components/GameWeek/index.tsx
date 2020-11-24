@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import { WithStyles } from "@material-ui/styles"
 import Accordion from '@material-ui/core/Accordion';
@@ -9,7 +9,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Container from '@material-ui/core/Container';
 import Field from '../Field';
 import Grid from '@material-ui/core/Grid';
-import gameweeks from '../../data/gameweeks.json';
+// import gameweeks from '../../data/gameweeks.json';
 
 // import Image from '../../field.svg'; // Import using relative path
 // import { ReactComponent as Field} from '../../field.svg';
