@@ -11,11 +11,11 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 const styles = () => 
     createStyles({
     root: {
-        backgroundColor: "#262626",
+        backgroundColor: "#030D17",
         position: "absolute",
         padding: 16,
         paddingTop: 16,
-        boxShadow: "0px 0px 5px 1px #162236",
+        boxShadow: "0px 0px 5px 1px #030D17",
         zIndex: 2,
     },
     names: {

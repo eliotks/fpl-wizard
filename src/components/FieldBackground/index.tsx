@@ -18,7 +18,7 @@ function FieldBackground() {
                 <rect x="0" y="60" width="1000" height="30" stroke="none" fill="#27EE14" />
 
                 {/* Bakgrunn */}
-                <polyline points="0,0 0,360 172,60 828,60 1000,360 1000,0 0,0" stroke="none" fill="#262626" />
+                <polyline points="0,0 0,360 172,60 828,60 1000,360 1000,0 0,0" stroke="none" fill="#030D17" />
 
                 {/* <rect x="0" y="0" width="1000" height="60" style="fill:#34507d;stroke:none"/>
                 <path d="M 172 60 S -20 300, 0 650 L -10 -10 L 828 60 S 1020 300, 1000 650 L 1010 -10 L 172 60" style="fill:#34507d;stroke:none" /> */}
@@ -26,10 +26,10 @@ function FieldBackground() {
                 {/* Reklameskilt */}
                 <polygon points="207,60 390,60 376,84 216,84" stroke="none" fill="#1A9F0D" />
                 <rect x="216" y="34" width="160" height="50" stroke="none" fill="#EBEBEB" />
-                <text x="248" y="67" fill="#344F79" font-size="21" font-weight="bold">REKLAME</text>
+                <text x="248" y="67" fill="#030D17" font-size="21" font-weight="bold">REKLAME</text>
                 <polygon points="610,60 793,60 784,84 624,84" stroke="none" fill="#1A9F0D" />
                 <rect x="624" y="34" width="160" height="50" stroke="none" fill="#EBEBEB" />
-                <text x="656" y="67" fill="#344F79" font-size="21" font-weight="bold">REKLAME</text>
+                <text x="656" y="67" fill="#030D17" font-size="21" font-weight="bold">REKLAME</text>
 
                 {/* Skyggen til hjørneflagg */}
                 <line x1="180.2" y1="91.2" x2="194" y2="60" stroke="#1A9F0D" stroke-width="3" />

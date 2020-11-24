@@ -16,12 +16,12 @@
     height: 20px;
     background: "white";
     border-radius: 10px 10px 0px 0px;
-    background: #262626;
+    background: #030D17;
     font-weight: 600;
 }
 
 .playerScore {
-    color: black;
+    color: #030D17;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,5 +30,5 @@
     background: "white";
     border-radius: 0px 0px 10px 10px;
     background: #E4F2EE;
-    font-weight: 600;
+    font-weight: 700;
 }

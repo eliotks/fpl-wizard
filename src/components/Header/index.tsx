@@ -9,11 +9,12 @@ import Grid from '@material-ui/core/Grid';
 const styles = () => 
     createStyles({
     root: {
-        backgroundColor: "#262626",
+        // 262626 1F4B69 215F8A 1268A4 030D17 101D29
+        backgroundColor: "#030D17",
         position: "fixed",
         padding: 24,
         paddingTop: 28,
-        boxShadow: "0px 0px 10px 1px #262626",
+        boxShadow: "0px 0px 10px 1px #030D17",
         zIndex: 2,
     },
     mainLogo: {
