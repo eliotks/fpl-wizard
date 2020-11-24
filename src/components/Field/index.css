@@ -46,4 +46,14 @@
     margin: auto;
 }
 
+.captain {
+    position: absolute;
+    top: 300px;
+    left: 190px;
+}
 
+.viceCaptain {
+    position: absolute;
+    top: 300px;
+    left: 420px;
+}

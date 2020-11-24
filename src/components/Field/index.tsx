@@ -67,6 +67,18 @@ function Field(props: IProps) {
                         </Grid>
                     </Grid>
                 </div>
+                <div className="captain">
+                    <svg width="50" height="50">
+                        <circle cx="25" cy="25" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+                        <text x="16.1" y="33.3" fill="#FFFFFF" font-size="24" font-weight="bold">C</text>
+                    </svg>
+                </div>
+                <div className="viceCaptain">
+                    <svg width="50" height="50">
+                        <circle cx="25" cy="25" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+                        <text x="17" y="34" fill="#FFFFFF" font-size="24" font-weight="bold">V</text>
+                    </svg>
+                </div>
             </div>
     );
 }
