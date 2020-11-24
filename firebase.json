@@ -1,16 +1,10 @@
 {
   "hosting": {
-<<<<<<< HEAD
     "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
-=======
-    "site": "fpl-wizard",
-    "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
->>>>>>> dbd0fed6e21cb240973820b797ec82a91b0914ae
   }
 }
