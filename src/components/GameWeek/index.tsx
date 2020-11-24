@@ -9,13 +9,10 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Container from '@material-ui/core/Container';
 import Field from '../Field';
 import Grid from '@material-ui/core/Grid';
-// import gameweeks from '../../data/gameweeks.json';
+import { isKeyof } from '../../helpers';
+import gameweeks from '../../data/gameweeks.json';
+import { IGameWeek } from '../../data/interfaces';
 
-// import Image from '../../field.svg'; // Import using relative path
-// import { ReactComponent as Field} from '../../field.svg';
-// import { renderToStaticMarkup } from 'react-dom/server';
-
-// const svgString = encodeURIComponent(renderToStaticMarkup(<Field/>));
 
 const styles = {
     root: {
@@ -28,10 +25,10 @@ const styles = {
         background: `repeating-linear-gradient(#ffffff, #ffffff 300px, #27EE14 300px, #27EE14)`
     },
     header: {
-        fontSize: 18,
+        fontSize: 16,
         fontFamily: "Nunito, sans-serif",
         fontStyle: 'normal',
-        fontWeight: 600,
+        fontWeight: 500,
         color: "#030D17",
     },
     summary: {
@@ -41,7 +38,6 @@ const styles = {
         paddingBottom: 6,
     },
     field: {
-        // padding: 50,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -50,34 +46,39 @@ const styles = {
     },
 };
 
-interface IGameWeek {
+interface IGameWeekProps {
     gameweekNumber: number
 }
 
 
-type IProps = WithStyles<typeof styles> & IGameWeek
+type IProps = WithStyles<typeof styles> & IGameWeekProps
 
 const GameWeek: React.FunctionComponent<IProps> = props =>  {
     const [expanded, setExpanded] = React.useState<boolean>(false);
-    
     const { classes, gameweekNumber } = props;
+
+    const gameweekNumberString: string = gameweekNumber.toString()
+    const gameweek: IGameWeek | undefined = isKeyof(gameweeks, gameweekNumberString) ? gameweeks[gameweekNumberString] : undefined
+
     return (
         <Container>
+            {gameweek !== undefined && (
             <Accordion className={classes.root} expanded={expanded} onChange={() => setExpanded(! expanded)} style={{ borderRadius: 30 }}>
                 <AccordionSummary className={classes.summary} expandIcon={<ExpandMoreIcon/>}>
                     <Grid container spacing={10}>
                         <Grid item>
-                            <Typography className={classes.header}>{"GameWeek  " + gameweekNumber.toString()}</Typography>
+                            <Typography className={classes.header}>{"GAMEWEEK  " + gameweekNumber.toString()}</Typography>
                         </Grid>
                         <Grid item>
-                            <Typography className={classes.header}>Gameweek score: 57</Typography>
+                            <Typography className={classes.header}>{"SCORE:  " + gameweek.totalPoints.toString()}</Typography>
                         </Grid>
                     </Grid>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Container className={classes.field}> <Field gameweekNumber={gameweekNumber}/> </Container>
+                    <Container className={classes.field}> <Field gameweek={gameweek}/> </Container>
                 </AccordionDetails>
             </Accordion>
+            )}
         </Container>
     )
 }

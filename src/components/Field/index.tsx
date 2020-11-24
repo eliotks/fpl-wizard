@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import gameweeks from '../../data/gameweeks.json';
-import { isKeyof, getShirtColors, getKeeperShirtColors } from './helpers';
+import { getShirtColors, getKeeperShirtColors } from '../../helpers';
 import { IGameWeek, IPlayer } from '../../data/interfaces';
 import './index.css';
 import PlayerText from '../PlayerText';
@@ -13,25 +12,19 @@ import KeeperShirt from '../PlayerShirts/KeeperShirt';
 
 
 interface IProps {
-    gameweekNumber: number
+    gameweek: IGameWeek
 }
 
 
 function Field(props: IProps) {
-   
-    const gameweekNumberString: string = props.gameweekNumber.toString();
-
-    const gameWeek: IGameWeek | undefined = isKeyof(gameweeks, gameweekNumberString) ? gameweeks[gameweekNumberString] : undefined
+    const { gameweek } = props
     
-    const keeper: IPlayer | undefined = gameWeek !== undefined ? gameWeek.keeper : undefined
-    const defenders: IPlayer[] | undefined = gameWeek !== undefined ? gameWeek.defenders : undefined
-    const midfielders: IPlayer[] | undefined = gameWeek !== undefined ? gameWeek.midfielders : undefined
-    const attackers: IPlayer[] | undefined = gameWeek !== undefined ? gameWeek.attackers : undefined
+    const keeper: IPlayer = gameweek.keeper
+    const defenders: IPlayer[] = gameweek.defenders
+    const midfielders: IPlayer[] = gameweek.midfielders
+    const attackers: IPlayer[] = gameweek.attackers
 
     return (
-        <div>
-            {keeper !== undefined && defenders !== undefined && midfielders !== undefined && attackers !== undefined && (
-
             <div className="root">
                 <FieldBackground />                      
                 <div className="team">
@@ -75,9 +68,6 @@ function Field(props: IProps) {
                     </Grid>
                 </div>
             </div>
-
-            )}
-        </div>
     );
 }
 

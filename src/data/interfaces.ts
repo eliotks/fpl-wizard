@@ -6,8 +6,8 @@ export interface IPlayer {
 }
 
 export interface IGameWeek {
-    totalPrediction: number,
-    totalPoints: number,
+    totalPrediction: number | string,
+    totalPoints: number | string,
     keeper: IPlayer,
     defenders: IPlayer[],
     midfielders: IPlayer[],
