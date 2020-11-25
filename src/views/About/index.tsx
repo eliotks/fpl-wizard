@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { WithStyles, createStyles } from "@material-ui/styles"
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
-import { dataText, modelsText, teamOptimizerText } from './texts';
+import { text1, text2, text3, text4, text5 } from './texts';
 
 
 const styles = () => 
@@ -30,22 +30,36 @@ createStyles({
         fontWeight: 400,
         color: "#FFFFFF",
     },
-    contentData: {
+    content1: {
         backgroundColor: "rgba(13, 20, 43, 0.74)",
         backdropFilter: "blur(20px) opacity(0.8)",
         minHeight: "300px",
         backgroundSize: "100%",
         padding: "60px 180px 30px 180px",
     },
-    contentModels: {
-        backgroundColor: "rgba(17, 29, 35, 0.74)",
+    content2: {
+        backgroundColor: "rgba(17, 29, 40, 0.74)",
         backdropFilter: "blur(20px) opacity(0.8)",
         minHeight: "300px",
         backgroundSize: "100%",
         padding: "40px 180px 30px 180px",
     },
-    contentTeamOptimizer: {
+    content3: {
         backgroundColor: "rgba(30, 20, 50, 0.74)",
+        backdropFilter: "blur(20px) opacity(0.8)",
+        minHeight: "300px",
+        backgroundSize: "100%",
+        padding: "40px 180px 30px 180px",
+    },
+    content4: {
+        backgroundColor: "rgba(12, 12, 30, 0.74)",
+        backdropFilter: "blur(20px) opacity(0.8)",
+        minHeight: "300px",
+        backgroundSize: "100%",
+        padding: "40px 180px 30px 180px",
+    },
+    content5: {
+        backgroundColor: "rgba(40, 23, 40, 0.74)",
         backdropFilter: "blur(20px) opacity(0.8)",
         minHeight: "300px",
         backgroundSize: "100%",
@@ -72,17 +86,25 @@ const About: React.FunctionComponent<IProps> = props =>  {
                 <Container maxWidth={false} className={classes.header}> 
                     <Typography className={classes.heading} align="center">HOW IT WORKS</Typography> 
                 </Container>
-                <Container maxWidth={false} className={classes.contentData}>
-                    <Typography className={classes.subHeading}>Data</Typography> 
-                    <Typography className={classes.text}>{dataText}</Typography> 
+                <Container maxWidth={false} className={classes.content1}>
+                    <Typography className={classes.subHeading}>FPL DREAM TEAM</Typography> 
+                    <Typography className={classes.text}>{text1}</Typography> 
                 </Container>
-                <Container maxWidth={false} className={classes.contentModels}>
-                    <Typography className={classes.subHeading}>Models</Typography> 
-                    <Typography className={classes.text}>{modelsText}</Typography>
+                <Container maxWidth={false} className={classes.content2}>
+                    <Typography className={classes.subHeading}>MODELS AND DATA</Typography> 
+                    <Typography className={classes.text}>{text2}</Typography>
                 </Container>
-                <Container maxWidth={false} className={classes.contentTeamOptimizer}>
-                    <Typography className={classes.subHeading}>Finding the best team</Typography> 
-                    <Typography className={classes.text}>{teamOptimizerText}</Typography> 
+                <Container maxWidth={false} className={classes.content3}>
+                    <Typography className={classes.subHeading}>TEAM SELECTION</Typography> 
+                    <Typography className={classes.text}>{text3}</Typography> 
+                </Container>
+                <Container maxWidth={false} className={classes.content4}>
+                    <Typography className={classes.subHeading}>PERFORMANCE</Typography> 
+                    <Typography className={classes.text}>{text4}</Typography> 
+                </Container>
+                <Container maxWidth={false} className={classes.content5}>
+                    <Typography className={classes.subHeading}>FUTURE WORK</Typography> 
+                    <Typography className={classes.text}>{text5}</Typography> 
                 </Container>
         </div>
     )
