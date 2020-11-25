@@ -33,7 +33,7 @@ extensions like incorporating the concepts of player transfers and chips in FPL 
 create a computer program that can master every concept and nuance of FPL and eventually play the game itself and beat the rest of the world.
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 What is this?
