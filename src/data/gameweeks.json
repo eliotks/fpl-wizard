@@ -2,6 +2,8 @@
     "4": {
         "totalPrediction": 77.24,
         "totalPoints": 94,
+        "capCoordinates": [190, 300],
+        "viceCapCoordinates": [420, 300],
         "keeper": {
             "name": "McCarthy",
             "team": "Southampton",
@@ -30,13 +32,13 @@
         ],
         "midfielders": [
             {
-                "name": "Son (C)",
+                "name": "Son",
                 "team": "Tottenham",
                 "prediction": 8.95,
                 "score": 36
             },
             {
-                "name": "Salah (V)",
+                "name": "Salah",
                 "team": "Liverpool",
                 "prediction": 8.57,
                 "score": 13
@@ -79,6 +81,8 @@
     "5": {
         "totalPrediction": 69.97,
         "totalPoints": 81,
+        "capCoordinates": [190, 300],
+        "viceCapCoordinates": [420, 300],
         "keeper": {
             "name": "McCarthy",
             "team": "Southampton",
@@ -107,13 +111,13 @@
         ],
         "midfielders": [
             {
-                "name": "SON (C)",
+                "name": "SON",
                 "team": "Tottenham",
                 "prediction": 7.88,
                 "score": 26
             },
             {
-                "name": "Zaha (V)",
+                "name": "Zaha",
                 "team": "Crystal Palace",
                 "prediction": 6.57,
                 "score": 9
@@ -156,6 +160,8 @@
     "6": {
         "totalPrediction": 82.38,
         "totalPoints": 34,
+        "capCoordinates": [190, 300],
+        "viceCapCoordinates": [420, 300],
         "keeper": {
             "name": "Martinez",
             "team": "Aston Villa",
@@ -184,13 +190,13 @@
         ],
         "midfielders": [
             {
-                "name": "Salah (C)",
+                "name": "Salah",
                 "team": "Liverpool",
                 "prediction": 10.39,
                 "score": 4
             },
             {
-                "name": "Son (V)",
+                "name": "Son",
                 "team": "Tottenham",
                 "prediction": 9.08,
                 "score": 11
@@ -233,6 +239,8 @@
     "7": {
         "totalPrediction": 81.50,
         "totalPoints": 55,
+        "capCoordinates": [190, 300],
+        "viceCapCoordinates": [420, 300],
         "keeper": {
             "name": "Schmeichel",
             "team": "Leicester",
@@ -261,13 +269,13 @@
         ],
         "midfielders": [
             {
-                "name": "Son (C)",
+                "name": "Son",
                 "team": "Tottenham",
                 "prediction": 11.56,
                 "score": 4
             },
             {
-                "name": "Salah (V)",
+                "name": "Salah",
                 "team": "Liverpool",
                 "prediction": 9.56,
                 "score": 8
@@ -310,6 +318,8 @@
     "8": {
         "totalPrediction": 79.13,
         "totalPoints": 63,
+        "capCoordinates": [190, 300],
+        "viceCapCoordinates": [420, 300],
         "keeper": {
             "name": "McCarthy",
             "team": "Southampton",
@@ -338,13 +348,13 @@
         ],
         "midfielders": [
             {
-                "name": "Zaha (C)",
+                "name": "Zaha",
                 "team": "Crystal Palace",
                 "prediction": 9.22,
                 "score": 10
             },
             {
-                "name": "Son (V)",
+                "name": "Son",
                 "team": "Tottenham",
                 "prediction": 9.08,
                 "score": 3
@@ -387,6 +397,8 @@
     "9": {
         "totalPrediction": 70.73,
         "totalPoints": 57,
+        "capCoordinates": [190, 300],
+        "viceCapCoordinates": [420, 300],
         "keeper": {
             "name": "Martinez",
             "team": "Aston Villa",
@@ -415,16 +427,16 @@
         ],
         "midfielders": [
             {
-                "name": "Grealish (C)",
+                "name": "Grealish",
                 "team": "Aston Villa",
                 "prediction": 8.03,
                 "score": 2
             },
             {
-                "name": "Zaha (V)",
+                "name": "Zaha",
                 "team": "Crystal Palace",
                 "prediction": 7.66,
-                "score": "Bur(A)"
+                "score": 0
             },
             {
                 "name": "Son",
