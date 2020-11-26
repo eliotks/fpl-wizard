@@ -21,7 +21,7 @@ type IProps = WithStyles<typeof styles>
 const GameWeekList: React.FunctionComponent<IProps> = props =>  {
     const { classes } = props;
 
-    const gameweeks: number[] = [9, 8, 7, 6, 5, 4]
+    const gameweeks: number[] = [10, 9, 8, 7, 6, 5, 4]
 
     return (
         <Container className={classes.root}>
