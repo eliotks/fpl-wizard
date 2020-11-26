@@ -471,5 +471,83 @@
                 "score": 2
             }
         ]
+    },
+    "10": {
+        "totalPrediction": 60,
+        "totalPoints": "TBA",
+        "capCoordinates": [190, 300],
+        "viceCapCoordinates": [420, 300],
+        "keeper": {
+            "name": "Martinez",
+            "team": "Aston Villa",
+            "prediction": 3.66,
+            "score": "TBA"
+        },
+        "defenders": [
+            {
+                "name": "Robertson",
+                "team": "Liverpool",
+                "prediction": 5.24,
+                "score": "TBA"
+            },
+            {
+                "name": "Reguilón",
+                "team": "Tottenham",
+                "prediction": 5.19,
+                "score": "TBA"
+            },
+            {
+                "name": "Dier",
+                "team": "Tottenham",
+                "prediction": 3.83,
+                "score": "TBA"
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Salah",
+                "team": "Liverpool",
+                "prediction": 10,
+                "score": "TBA"
+            },
+            {
+                "name": "Grealish",
+                "team": "Aston Villa",
+                "prediction": 6.95,
+                "score": "TBA"
+            },
+            {
+                "name": "Jota",
+                "team": "Liverpool",
+                "prediction": 5.72,
+                "score": "TBA"
+            },
+            {
+                "name": "Trezeguet",
+                "team": "Aston Villa",
+                "prediction": 5.58,
+                "score": "TBA"
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Kane",
+                "team": "Tottenham",
+                "prediction": 5.62,
+                "score": "TBA"
+            },
+            {
+                "name": "Calvert-Lewin",
+                "team": "Everton",
+                "prediction": 5.44,
+                "score": "TBA"
+            },
+            {
+                "name": "Vardy",
+                "team": "Leicester",
+                "prediction": 4.92,
+                "score": "TBA"
+            }
+        ]
     }
 }
