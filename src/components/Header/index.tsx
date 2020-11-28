@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import Link from '@material-ui/core/Link';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles, Theme } from '@material-ui/core/styles';
 import { WithStyles, createStyles } from "@material-ui/styles"
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
-const styles = () => 
+const styles = (theme: Theme) => 
     createStyles({
     root: {
         // 262626 1F4B69 215F8A 1268A4 030D17 101D29
@@ -24,10 +24,19 @@ const styles = () =>
         fontWeight: 600,
         letterSpacing: -1,
         color: "#FFFFFF",
+        // For mobile view
+        [theme.breakpoints.down("xs")]: {
+            padding: 0,
+            fontSize: 22,
+        },
     },
     about: {
         color: "#FFFFFF",
         paddingRight: 20,
+        // For mobile view
+        [theme.breakpoints.down("xs")]: {
+            padding: 0
+        },
     },
     aboutText: {
         fontSize: 20,
