@@ -552,33 +552,33 @@
     },
     "11": {
         "totalPrediction": 60,
-        "totalPoints": "TBA",
+        "totalPoints": 74,
         "capCoordinates": [190, 300],
         "viceCapCoordinates": [420, 300],
         "keeper": {
             "name": "Mendy",
             "team": "Chelsea",
             "prediction": 3.5,
-            "score": "TBA"
+            "score": 2
         },
         "defenders": [
             {
                 "name": "Aanholt",
                 "team": "Crystal Palace",
                 "prediction": 5.78,
-                "score": "TBA"
+                "score": 5
             },
             {
                 "name": "Chilwell",
                 "team": "Chelsea",
                 "prediction": 4.67,
-                "score": "TBA"
+                "score": 2
             },
             {
                 "name": "Justin",
                 "team": "Leicester",
                 "prediction": 4.33,
-                "score": "TBA"
+                "score": 2
             }
         ],
         "midfielders": [
@@ -586,25 +586,25 @@
                 "name": "Fernandes",
                 "team": "Manchester United",
                 "prediction": 17,
-                "score": "TBA"
+                "score": 12
             },
             {
                 "name": "Son",
                 "team": "Tottenham",
                 "prediction": 6.52,
-                "score": "TBA"
+                "score": 13
             },
             {
                 "name": "De Bruyne",
                 "team": "Manchester City",
                 "prediction": 5.96,
-                "score": "TBA"
+                "score": 14
             },
             {
                 "name": "Walcott",
                 "team": "Southampton",
                 "prediction": 5.95,
-                "score": "TBA"
+                "score": 2
             }
         ],
         "attackers": [
@@ -612,18 +612,96 @@
                 "name": "Kane",
                 "team": "Tottenham",
                 "prediction": 5.13,
-                "score": "TBA"
+                "score": 12
             },
             {
                 "name": "Adams",
                 "team": "Southampton",
                 "prediction": 4.43,
-                "score": "TBA"
+                "score": 2
             },
             {
                 "name": "Bamford",
                 "team": "Leeds",
                 "prediction": 4.14,
+                "score": 8
+            }
+        ]
+    },
+    "12": {
+        "totalPrediction": 0,
+        "totalPoints": "TBA",
+        "capCoordinates": [190, 300],
+        "viceCapCoordinates": [420, 300],
+        "keeper": {
+            "name": "Mendy",
+            "team": "Chelsea",
+            "prediction": 4.06,
+            "score": "TBA"
+        },
+        "defenders": [
+            {
+                "name": "Aanholt",
+                "team": "Crystal Palace",
+                "prediction": 5.75,
+                "score": "TBA"
+            },
+            {
+                "name": "Chilwell",
+                "team": "Chelsea",
+                "prediction": 6.08,
+                "score": "TBA"
+            },
+            {
+                "name": "James",
+                "team": "Chelsea",
+                "prediction": 5.68,
+                "score": "TBA"
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Fernandes",
+                "team": "Manchester United",
+                "prediction": 18.30,
+                "score": "TBA"
+            },
+            {
+                "name": "Son",
+                "team": "Tottenham",
+                "prediction": 7.67,
+                "score": "TBA"
+            },
+            {
+                "name": "Jota",
+                "team": "Liverpool",
+                "prediction": 6.87,
+                "score": "TBA"
+            },
+            {
+                "name": "Bowen",
+                "team": "West Ham",
+                "prediction": 5.81,
+                "score": "TBA"
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Kane",
+                "team": "Tottenham",
+                "prediction": 6.89,
+                "score": "TBA"
+            },
+            {
+                "name": "Adams",
+                "team": "Southampton",
+                "prediction": 4.71,
+                "score": "TBA"
+            },
+            {
+                "name": "Vardy",
+                "team": "Leicester",
+                "prediction": 5.38,
                 "score": "TBA"
             }
         ]
