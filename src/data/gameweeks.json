@@ -637,26 +637,26 @@
             "name": "Mendy",
             "team": "Chelsea",
             "prediction": 4.06,
-            "score": "TBA"
+            "score": 3
         },
         "defenders": [
             {
                 "name": "Aanholt",
                 "team": "Crystal Palace",
                 "prediction": 5.75,
-                "score": "TBA"
+                "score": 2
             },
             {
                 "name": "Chilwell",
                 "team": "Chelsea",
                 "prediction": 6.08,
-                "score": "TBA"
+                "score": 2
             },
             {
                 "name": "James",
                 "team": "Chelsea",
                 "prediction": 5.68,
-                "score": "TBA"
+                "score": 1
             }
         ],
         "midfielders": [
@@ -664,25 +664,25 @@
                 "name": "Fernandes",
                 "team": "Manchester United",
                 "prediction": 18.30,
-                "score": "TBA"
+                "score": 3
             },
             {
                 "name": "Son",
                 "team": "Tottenham",
                 "prediction": 7.67,
-                "score": "TBA"
+                "score": 10
             },
             {
                 "name": "Jota",
                 "team": "Liverpool",
                 "prediction": 6.87,
-                "score": "TBA"
+                "score": 0
             },
             {
                 "name": "Bowen",
                 "team": "West Ham",
                 "prediction": 5.81,
-                "score": "TBA"
+                "score": 5
             }
         ],
         "attackers": [
@@ -702,6 +702,84 @@
                 "name": "Vardy",
                 "team": "Leicester",
                 "prediction": 5.38,
+                "score": "TBA"
+            }
+        ]
+    },
+    "17": {
+        "totalPrediction": 0,
+        "totalPoints": "TBA",
+        "capCoordinates": [190, 300],
+        "viceCapCoordinates": [420, 300],
+        "keeper": {
+            "name": "Guaita",
+            "team": "Crystal Palace",
+            "prediction": 0,
+            "score": "TBA"
+        },
+        "defenders": [
+            {
+                "name": "Justin",
+                "team": "Leicester",
+                "prediction": 0,
+                "score": "TBA"
+            },
+            {
+                "name": "Robertson",
+                "team": "Liverpool",
+                "prediction": 0,
+                "score": "TBA"
+            },
+            {
+                "name": "Tierney",
+                "team": "Arsenal",
+                "prediction": 0,
+                "score": "TBA"
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "Fernandes",
+                "team": "Manchester United",
+                "prediction": 0,
+                "score": "TBA"
+            },
+            {
+                "name": "El Ghazi",
+                "team": "Aston Villa",
+                "prediction": 0,
+                "score": "TBA"
+            },
+            {
+                "name": "Grealish",
+                "team": "Aston Villa",
+                "prediction": 0,
+                "score": "TBA"
+            },
+            {
+                "name": "Saka",
+                "team": "Arsenal",
+                "prediction": 0,
+                "score": "TBA"
+            }
+        ],
+        "attackers": [
+            {
+                "name": "Firmino",
+                "team": "Liverpool",
+                "prediction": 0,
+                "score": "TBA"
+            },
+            {
+                "name": "Watkins",
+                "team": "Aston Villa",
+                "prediction": 0,
+                "score": "TBA"
+            },
+            {
+                "name": "Bamford",
+                "team": "Leeds",
+                "prediction": 0,
                 "score": "TBA"
             }
         ]
